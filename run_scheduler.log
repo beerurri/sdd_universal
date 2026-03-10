@@ -1,0 +1,210 @@
+2026-03-10 21:08:30 [INFO] __main__: Total commands: 568
+2026-03-10 21:08:30 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 21:08:30 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 21:08:30 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 21:08:30 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 21:08:33 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 21:08:33 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 21:08:35 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, returncode: 0
+2026-03-10 21:08:35 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 21:08:37 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, returncode: 0
+2026-03-10 21:08:37 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 21:08:38 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta, returncode: 0
+2026-03-10 21:08:38 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 21:08:43 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta, returncode: 0
+2026-03-10 21:08:43 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 21:08:47 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, returncode: 0
+2026-03-10 21:08:47 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta
+2026-03-10 21:08:50 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 0
+2026-03-10 21:08:50 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 21:08:53 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta, returncode: 3221225786
+2026-03-10 21:08:53 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta, returncode: 3221225786
+2026-03-10 21:08:53 [WARNING] __main__: Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 21:08:53 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 3221225786
+2026-03-10 21:10:01 [INFO] __main__: Total commands: 568
+2026-03-10 21:10:01 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 21:10:01 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 21:10:01 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 21:10:01 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 21:10:05 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 21:10:05 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 21:10:07 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, returncode: 0
+2026-03-10 21:10:07 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 21:10:08 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, returncode: 0
+2026-03-10 21:10:08 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 21:10:10 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta, returncode: 0
+2026-03-10 21:10:10 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 21:10:15 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta, returncode: 0
+2026-03-10 21:10:15 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 21:10:18 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, returncode: 0
+2026-03-10 21:10:18 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta
+2026-03-10 21:10:21 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 0
+2026-03-10 21:10:21 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 21:10:24 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 0
+2026-03-10 21:10:24 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta
+2026-03-10 21:10:30 [INFO] __main__: Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta, returncode: 3221225786
+2026-03-10 21:10:30 [WARNING] __main__: Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta
+2026-03-10 21:10:30 [ERROR] __main__: Process error: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta, stderr: , stdout: Task: "santa",
+	Theta: 0.12,
+	Tau_0: 8.2,
+	NODES: 82,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: SF-TAU,
+	TRAINING_NODES: 82
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 478.3987 ms
+Testing...
+NODES_COUNT = 410000
+21.018713675137317
+Mean NMSE at mask #0: 0.021018713675137315
+Testing elapsed 8.6398 ms
+
+
+	Mask index: 1
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 471.3837 ms
+Testing...
+NODES_COUNT = 410000
+19.285618223346095
+Mean NMSE at mask #1: 0.019285618223346096
+Testing elapsed 12.6668 ms
+
+
+	Mask index: 2
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 488.5651 ms
+Testing...
+NODES_COUNT = 410000
+18.67788146307564
+Mean NMSE at mask #2: 0.01867788146307564
+Testing elapsed 8.6614 ms
+
+
+	Mask index: 3
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 493.9974 ms
+Testing...
+NODES_COUNT = 410000
+16.612496363465013
+Mean NMSE at mask #3: 0.016612496363465012
+Testing elapsed 12.683 ms
+
+
+	Mask index: 4
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 549.9905 ms
+Testing...
+NODES_COUNT = 410000
+20.142060666055748
+Mean NMSE at mask #4: 0.02014206066605575
+Testing elapsed 14.8151 ms
+
+
+	Mask index: 5
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 529.0791 ms
+Testing...
+NODES_COUNT = 410000
+19.059769695613557
+Mean NMSE at mask #5: 0.019059769695613557
+Testing elapsed 11.9524 ms
+
+
+	Mask index: 6
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 517.0724 ms
+Testing...
+NODES_COUNT = 410000
+18.482099600104707
+Mean NMSE at mask #6: 0.018482099600104707
+Testing elapsed 11.9929 ms
+
+
+	Mask index: 7
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 535.4305 ms
+Testing...
+NODES_COUNT = 410000
+14.957714121757345
+Mean NMSE at mask #7: 0.014957714121757344
+Testing elapsed 17.7088 ms
+
+
+	Mask index: 8
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 543.7498 ms
+Testing...
+NODES_COUNT = 410000
+17.194881481991672
+Mean NMSE at mask #8: 0.01719488148199167
+Testing elapsed 10.1692 ms
+
+
+	Mask index: 9
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+

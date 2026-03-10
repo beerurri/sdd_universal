@@ -59,7 +59,7 @@ use crate::params;
 
 pub fn filename_builder(args: &crate::Args, params: &params::Params, extra: &str) -> String {
     let mut res = format!(
-        "{}_case_{}_theta_{}_beta_{}_tau0_{}_every_second_{}_constant-theta_{}",
+        "results/{}_case_{}_theta_{}_beta_{}_tau0_{}_every_second_{}_constant-theta_{}",
         args.task, args.case, params.Theta, params.beta, params.tau_0, args.every_second, args.constant_theta
     );
 
