@@ -16,23 +16,23 @@ use rand::rngs::StdRng;
 #[command(name = "universal")]
 struct Args {
     /// Task to perform
-    #[arg(short, long)]
+    #[arg(long)]
     task: String,
 
     /// Case name for file saving
-    #[arg(short, long, default_value = "default")]
+    #[arg(long, default_value = "default")]
     case: String,
 
     /// Theta parameter
-    #[arg(short, long, default_value = "0.12")]
+    #[arg(long, default_value = "0.12")]
     theta: f64,
 
     /// Beta parameter
-    #[arg(short, long, default_value = "0.5")]
+    #[arg(long, default_value = "0.5")]
     beta: f64,
 
     /// Tau_0 parameter
-    #[arg(short, long, default_value = "1.0")]
+    #[arg(long, default_value = "1.0")]
     tau_0: f64,
 
     /// Every second flag
@@ -40,7 +40,7 @@ struct Args {
     every_second: bool,
 
     /// is Theta constant
-    #[arg(long, default_value = "true")]
+    #[arg(long, default_value = "false")]
     constant_theta: bool
 }
 
@@ -61,8 +61,8 @@ fn main() {
     params.every_second = args.every_second;
     params.update(&args);
 
-    println!("Task: {:?},\n\tTheta: {},\n\tBeta: {},\n\tTau_0: {},\n\tEvery Second: {},\n\tCase: {},\n\tDT: {},\n\tNODES: {},\n\tTRAINING_NODES: {}",
-             args.task, params.Theta, params.beta, params.tau_0, params.every_second, args.case, params.DT, params.NODES, params.TRAINING_NODES);
+    println!("Task: {:?},\n\tTheta: {},\n\tTau_0: {},\n\tNODES: {},\n\tDT: {},\n\tBeta: {},\n\tEvery Second: {},\n\tConstant Theta: {}\n\tCase: {},\n\tTRAINING_NODES: {}",
+             args.task, params.Theta, params.tau_0, params.NODES, params.DT, params.beta, params.every_second, args.constant_theta, args.case, params.TRAINING_NODES);
 
     match args.task.as_str() {
         "santa" => {
@@ -106,6 +106,7 @@ fn run_santa(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
         sw = Stopwatch::start_new();
         let mean_nmse: f64 = santa::perform_testing(&node_states, &output_data, &params);
         nmses.push(mean_nmse);
+        println!("Mean NMSE at mask #{}: {}", mask_idx, mean_nmse);
         stop = sw.elapsed();
         println!("Testing elapsed {} ms", stop.as_nanos() as f64 / 1e6);
     }
@@ -113,7 +114,7 @@ fn run_santa(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
     println!("Mean NMSE through {} masks: {}", constants::MASKS_COUNT, nmses.iter().sum::<f64>() / nmses.len() as f64);
 
     println!("Saving...");
-    _ = utils::save_vector_to_csv(&nmses, &utils::filename_builder(args, ""));
+    _ = utils::save_vector_to_csv(&nmses, &utils::filename_builder(args, &params, ""));
 }
 
 
@@ -141,6 +142,7 @@ fn run_narma(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
         sw = Stopwatch::start_new();
         let nrmse: f64 = narma::perform_testing(&node_states, &output_data, &params);
         nrmses.push(nrmse);
+        println!("Mean NRMSE at mask #{}: {}", mask_idx, nrmse);
         stop = sw.elapsed();
         println!("Testing elapsed {} ms", stop.as_nanos() as f64 / 1e6);
     }
@@ -148,7 +150,7 @@ fn run_narma(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
     println!("Mean NMSE through {} masks: {}", constants::MASKS_COUNT, nrmses.iter().sum::<f64>() / nrmses.len() as f64);
 
     println!("Saving...");
-    _ = utils::save_vector_to_csv(&nrmses, &utils::filename_builder(args, ""));
+    _ = utils::save_vector_to_csv(&nrmses, &utils::filename_builder(args, &params, ""));
 }
 
 
@@ -188,10 +190,10 @@ fn run_mc(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
     }
 
     println!("Saving...");
-    _ = utils::save_to_csv(&lcs, &utils::filename_builder(args, "LC"));
-    _ = utils::save_to_csv(&qcs, &utils::filename_builder(args, "QC"));
-    _ = utils::save_to_csv(&ccs, &utils::filename_builder(args, "CC"));
-    _ = utils::save_to_csv(&xcs, &utils::filename_builder(args, "XC"));
+    _ = utils::save_to_csv(&lcs, &utils::filename_builder(args, &params, "LC"));
+    _ = utils::save_to_csv(&qcs, &utils::filename_builder(args, &params, "QC"));
+    _ = utils::save_to_csv(&ccs, &utils::filename_builder(args, &params, "CC"));
+    _ = utils::save_to_csv(&xcs, &utils::filename_builder(args, &params, "XC"));
 }
 
 

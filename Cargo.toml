@@ -17,5 +17,3 @@ serde = { version = "1.0.228", features = ["derive"] }
 blosc = "0.2.1"
 statrs = "0.18.0"
 clap = { version = "4.0", features = ["derive"] }
-libc = "0.2"
-winapi = { version = "0.3", features = ["processenv", "winbase"] }

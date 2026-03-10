@@ -63,7 +63,6 @@ impl Params {
     pub fn update(&mut self, args: &crate::Args) {
         if !args.every_second {
             if args.constant_theta {
-                self.Theta = 0.12;
                 self.NODES = (10. * self.tau_0) as usize;
                 self.TRAINING_NODES = self.NODES;
             } else {

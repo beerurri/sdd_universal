@@ -4,17 +4,17 @@ pub const DEFAULT_DT: f64 = 0.001;
 pub const SAMPLES_COUNT: usize = 5000;
 
 pub const WARM_UP_COUNT: usize = 1500;
+pub const SANTA_GAP_SET_LEN: usize = 500;
 
 pub const MC_TEST_SET_LEN: usize = 200;
 pub const SANTA_TEST_SET_LEN: usize = 1000;
 pub const NARMA_TEST_SET_LEN: usize = 200;
 
 pub const MC_TRAIN_SET_LEN: usize = SAMPLES_COUNT - WARM_UP_COUNT - MC_TEST_SET_LEN;
-pub const SANTA_TRAIN_SET_LEN: usize = SAMPLES_COUNT - WARM_UP_COUNT - SANTA_TEST_SET_LEN;
+pub const SANTA_TRAIN_SET_LEN: usize = SAMPLES_COUNT - WARM_UP_COUNT - SANTA_TEST_SET_LEN - SANTA_GAP_SET_LEN;
 pub const NARMA_TRAIN_SET_LEN: usize = SAMPLES_COUNT - WARM_UP_COUNT - NARMA_TEST_SET_LEN;
 
 pub const MC_K_FOLDS_COUNT: usize = 50;
-pub const SANTA_GAP_SET_LEN: usize = 500;
 pub const SANTA_K_STEPS: usize = 1;
 
 pub const FEATURES_OUT: usize = 1;
