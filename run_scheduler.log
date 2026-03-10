@@ -208,3 +208,2329 @@ Testing elapsed 10.1692 ms
 60.0 %
 80.0 %
 
+2026-03-10 22:26:14 [INFO] __main__: Total commands: 568
+2026-03-10 22:26:14 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 22:26:14 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 22:26:14 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 22:26:14 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 22:26:17 [ERROR] __main__: [0/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:17 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 22:26:19 [ERROR] __main__: [1/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:19 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:26:21 [ERROR] __main__: [2/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:21 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:26:22 [ERROR] __main__: [3/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:22 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:26:27 [ERROR] __main__: [4/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:27 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 22:26:30 [ERROR] __main__: [5/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:30 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta
+2026-03-10 22:26:33 [ERROR] __main__: [6/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:33 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 22:26:36 [ERROR] __main__: [7/568] Process exception: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, 'CompletedProcess' object has no attribute 'returndencode'
+2026-03-10 22:26:36 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta
+2026-03-10 22:27:21 [INFO] __main__: Total commands: 568
+2026-03-10 22:27:21 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 22:27:21 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 22:27:21 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 22:27:21 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 22:27:25 [INFO] __main__: [0/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 22:27:25 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 22:27:26 [INFO] __main__: [1/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, returncode: 0
+2026-03-10 22:27:26 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:27:28 [INFO] __main__: [2/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, returncode: 0
+2026-03-10 22:27:28 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:27:29 [INFO] __main__: [3/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta, returncode: 0
+2026-03-10 22:27:29 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:27:34 [INFO] __main__: [4/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta, returncode: 0
+2026-03-10 22:27:34 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 22:27:37 [INFO] __main__: [5/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, returncode: 0
+2026-03-10 22:27:37 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta
+2026-03-10 22:27:41 [INFO] __main__: [6/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 0
+2026-03-10 22:27:41 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 22:27:44 [INFO] __main__: [7/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 0
+2026-03-10 22:27:44 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta
+2026-03-10 22:27:51 [INFO] __main__: [8/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta, returncode: 0
+2026-03-10 22:27:51 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta
+2026-03-10 22:27:56 [INFO] __main__: [9/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta, returncode: 0
+2026-03-10 22:27:56 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 12.6 --constant-theta
+2026-03-10 22:27:59 [INFO] __main__: [13/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 12.6 --constant-theta, returncode: 3221225786
+2026-03-10 22:27:59 [WARNING] __main__: [13/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 12.6 --constant-theta
+2026-03-10 22:27:59 [INFO] __main__: [12/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta, returncode: 3221225786
+2026-03-10 22:27:59 [ERROR] __main__: [13/568] Process error: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 12.6 --constant-theta, stderr: , stdout: Task: "santa",
+	Theta: 0.12,
+	Tau_0: 12.6,
+	NODES: 126,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: SF-TAU,
+	TRAINING_NODES: 126
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+Calculation elapsed 810.4186 ms
+Testing...
+NODES_COUNT = 630000
+531.6011153314711
+Mean NMSE at mask #0: 0.531601115331471
+Testing elapsed 22.0375 ms
+
+
+	Mask index: 1
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+Calculation elapsed 975.4385 ms
+Testing...
+NODES_COUNT = 630000
+298.94878375810924
+Mean NMSE at mask #1: 0.29894878375810924
+Testing elapsed 20.2665 ms
+
+
+	Mask index: 2
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+
+2026-03-10 22:27:59 [INFO] __main__: [11/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta, returncode: 3221225786
+2026-03-10 22:27:59 [WARNING] __main__: [12/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta
+2026-03-10 22:28:57 [INFO] __main__: Total commands: 568
+2026-03-10 22:28:57 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 22:28:59 [INFO] __main__: [0/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 22:29:07 [INFO] __main__: Total commands: 568
+2026-03-10 22:29:07 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 22:29:07 [INFO] __main__: Futures len: 1/4
+2026-03-10 22:29:07 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 22:29:07 [INFO] __main__: Futures len: 2/4
+2026-03-10 22:29:07 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 22:29:07 [INFO] __main__: Futures len: 3/4
+2026-03-10 22:29:07 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 22:29:07 [INFO] __main__: Futures len: 4/4
+2026-03-10 22:29:10 [INFO] __main__: [0/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 22:29:10 [INFO] __main__: Futures len: 4/4
+2026-03-10 22:29:10 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 22:29:12 [INFO] __main__: [1/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, returncode: 0
+2026-03-10 22:29:12 [INFO] __main__: Futures len: 4/4
+2026-03-10 22:29:12 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:29:13 [INFO] __main__: [2/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, returncode: 0
+2026-03-10 22:29:13 [INFO] __main__: Futures len: 4/4
+2026-03-10 22:29:13 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:29:15 [INFO] __main__: [3/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta, returncode: 0
+2026-03-10 22:29:15 [INFO] __main__: Futures len: 4/4
+2026-03-10 22:29:15 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:29:19 [INFO] __main__: [7/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 3221225786
+2026-03-10 22:29:19 [INFO] __main__: [6/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 3221225786
+2026-03-10 22:29:19 [WARNING] __main__: [7/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:29:23 [INFO] __main__: Total commands: 568
+2026-03-10 22:29:23 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 22:29:23 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 22:29:23 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 22:29:23 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 22:29:26 [INFO] __main__: [0/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 22:29:26 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 22:29:28 [INFO] __main__: [1/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, returncode: 0
+2026-03-10 22:29:28 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:29:29 [INFO] __main__: [2/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, returncode: 0
+2026-03-10 22:29:29 [INFO] __main__: Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:29:44 [INFO] __main__: Total commands: 568
+2026-03-10 22:29:44 [INFO] __main__: [0/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta
+2026-03-10 22:29:44 [INFO] __main__: [1/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta
+2026-03-10 22:29:44 [INFO] __main__: [2/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta
+2026-03-10 22:29:44 [INFO] __main__: [3/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta
+2026-03-10 22:29:47 [INFO] __main__: [0/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1 --constant-theta, returncode: 0
+2026-03-10 22:29:47 [INFO] __main__: [4/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta
+2026-03-10 22:29:49 [INFO] __main__: [1/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 1.5 --constant-theta, returncode: 0
+2026-03-10 22:29:49 [INFO] __main__: [5/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:29:51 [INFO] __main__: [2/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2 --constant-theta, returncode: 0
+2026-03-10 22:29:51 [INFO] __main__: [6/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:29:52 [INFO] __main__: [3/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 2.5 --constant-theta, returncode: 0
+2026-03-10 22:29:52 [INFO] __main__: [7/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:29:57 [INFO] __main__: [4/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3 --constant-theta, returncode: 0
+2026-03-10 22:29:57 [INFO] __main__: [8/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 22:30:00 [INFO] __main__: [5/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, returncode: 0
+2026-03-10 22:30:00 [INFO] __main__: [9/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta
+2026-03-10 22:30:02 [INFO] __main__: [6/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 0
+2026-03-10 22:30:02 [INFO] __main__: [10/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 22:30:06 [INFO] __main__: [7/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 0
+2026-03-10 22:30:06 [INFO] __main__: [11/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta
+2026-03-10 22:30:12 [INFO] __main__: [8/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta, returncode: 0
+2026-03-10 22:30:12 [INFO] __main__: [12/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta
+2026-03-10 22:30:13 [INFO] __main__: [12/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta, returncode: 3221225786
+2026-03-10 22:30:19 [INFO] __main__: Total commands: 568
+2026-03-10 22:30:19 [INFO] __main__: [5/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:30:19 [INFO] __main__: [6/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:30:19 [INFO] __main__: [7/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:30:19 [INFO] __main__: [8/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 22:30:27 [INFO] __main__: [8/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta, returncode: 3221225786
+2026-03-10 22:30:27 [INFO] __main__: [6/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 3221225786
+2026-03-10 22:30:27 [INFO] __main__: [7/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 3221225786
+2026-03-10 22:30:27 [INFO] __main__: [5/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, returncode: 3221225786
+2026-03-10 22:30:27 [WARNING] __main__: [8/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 22:30:27 [WARNING] __main__: [6/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:30:27 [WARNING] __main__: [7/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:30:27 [WARNING] __main__: [5/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:30:27 [ERROR] __main__: [8/568] Process error: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta, stderr: , stdout: Task: "santa",
+	Theta: 0.12,
+	Tau_0: 5,
+	NODES: 50,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: SF-TAU,
+	TRAINING_NODES: 50
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 303.3268 ms
+Testing...
+NODES_COUNT = 250000
+40.08461867827989
+Mean NMSE at mask #0: 0.040084618678279886
+Testing elapsed 5.1952 ms
+
+
+	Mask index: 1
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 297.9839 ms
+Testing...
+NODES_COUNT = 250000
+27.696573763319215
+Mean NMSE at mask #1: 0.027696573763319215
+Testing elapsed 6.2926 ms
+
+
+	Mask index: 2
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 329.3043 ms
+Testing...
+NODES_COUNT = 250000
+17.522879641081108
+Mean NMSE at mask #2: 0.017522879641081106
+Testing elapsed 9.9922 ms
+
+
+	Mask index: 3
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 427.5192 ms
+Testing...
+NODES_COUNT = 250000
+21.907163202326032
+Mean NMSE at mask #3: 0.02190716320232603
+Testing elapsed 8.815 ms
+
+
+	Mask index: 4
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 343.32 ms
+Testing...
+NODES_COUNT = 250000
+20.93554085513398
+Mean NMSE at mask #4: 0.02093554085513398
+Testing elapsed 5.7834 ms
+
+
+	Mask index: 5
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 272.7732 ms
+Testing...
+NODES_COUNT = 250000
+27.61932372519991
+Mean NMSE at mask #5: 0.027619323725199908
+Testing elapsed 5.1148 ms
+
+
+	Mask index: 6
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 314.9787 ms
+Testing...
+NODES_COUNT = 250000
+26.91223201242305
+Mean NMSE at mask #6: 0.02691223201242305
+Testing elapsed 6.1787 ms
+
+
+	Mask index: 7
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 316.739 ms
+Testing...
+NODES_COUNT = 250000
+27.70594642070907
+Mean NMSE at mask #7: 0.027705946420709067
+Testing elapsed 7.3905 ms
+
+
+	Mask index: 8
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 282.8065 ms
+Testing...
+NODES_COUNT = 250000
+21.70561573845731
+Mean NMSE at mask #8: 0.02170561573845731
+Testing elapsed 5.7053 ms
+
+
+	Mask index: 9
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 294.436 ms
+Testing...
+NODES_COUNT = 250000
+28.4128473464396
+Mean NMSE at mask #9: 0.0284128473464396
+Testing elapsed 6.668 ms
+
+
+	Mask index: 10
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 335.8647 ms
+Testing...
+NODES_COUNT = 250000
+25.915037447838873
+Mean NMSE at mask #10: 0.025915037447838872
+Testing elapsed 5.4376 ms
+
+
+	Mask index: 11
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 310.1399 ms
+Testing...
+NODES_COUNT = 250000
+26.358598216932688
+Mean NMSE at mask #11: 0.026358598216932688
+Testing elapsed 5.8704 ms
+
+
+	Mask index: 12
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 293.3026 ms
+Testing...
+NODES_COUNT = 250000
+28.14968557835512
+Mean NMSE at mask #12: 0.028149685578355118
+Testing elapsed 6.8734 ms
+
+
+	Mask index: 13
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 286.3219 ms
+Testing...
+NODES_COUNT = 250000
+26.021907746366672
+Mean NMSE at mask #13: 0.026021907746366674
+Testing elapsed 6.4654 ms
+
+
+	Mask index: 14
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 290.671 ms
+Testing...
+NODES_COUNT = 250000
+28.866837603364555
+Mean NMSE at mask #14: 0.028866837603364556
+Testing elapsed 5.6682 ms
+
+
+	Mask index: 15
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 284.16 ms
+Testing...
+NODES_COUNT = 250000
+26.00954792115478
+Mean NMSE at mask #15: 0.026009547921154782
+Testing elapsed 6.8983 ms
+
+
+	Mask index: 16
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 283.07 ms
+Testing...
+NODES_COUNT = 250000
+38.06592151633499
+Mean NMSE at mask #16: 0.03806592151633499
+Testing elapsed 7.2868 ms
+
+
+	Mask index: 17
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 283.6171 ms
+Testing...
+NODES_COUNT = 250000
+28.36999560880648
+Mean NMSE at mask #17: 0.02836999560880648
+Testing elapsed 7.3746 ms
+
+
+	Mask index: 18
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 315.199 ms
+Testing...
+NODES_COUNT = 250000
+29.114059819825314
+Mean NMSE at mask #18: 0.029114059819825313
+Testing elapsed 6.6709 ms
+
+
+	Mask index: 19
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 323.9567 ms
+Testing...
+NODES_COUNT = 250000
+28.735914611505276
+Mean NMSE at mask #19: 0.028735914611505275
+Testing elapsed 6.411 ms
+
+
+	Mask index: 20
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 277.4033 ms
+Testing...
+NODES_COUNT = 250000
+26.64232749213757
+Mean NMSE at mask #20: 0.02664232749213757
+Testing elapsed 5.516 ms
+
+
+	Mask index: 21
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 311.3111 ms
+Testing...
+NODES_COUNT = 250000
+26.68530335974714
+Mean NMSE at mask #21: 0.026685303359747142
+Testing elapsed 7.3663 ms
+
+
+	Mask index: 22
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 283.0944 ms
+Testing...
+NODES_COUNT = 250000
+27.18891985448136
+Mean NMSE at mask #22: 0.02718891985448136
+Testing elapsed 7.5997 ms
+
+
+	Mask index: 23
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 288.3363 ms
+Testing...
+NODES_COUNT = 250000
+34.03911556162367
+Mean NMSE at mask #23: 0.034039115561623666
+Testing elapsed 6.9014 ms
+
+
+	Mask index: 24
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 333.9269 ms
+Testing...
+NODES_COUNT = 250000
+20.08654561020116
+Mean NMSE at mask #24: 0.02008654561020116
+Testing elapsed 7.3518 ms
+
+
+	Mask index: 25
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 312.4195 ms
+Testing...
+NODES_COUNT = 250000
+25.472942827544934
+Mean NMSE at mask #25: 0.025472942827544934
+Testing elapsed 4.9512 ms
+
+
+	Mask index: 26
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 324.4294 ms
+Testing...
+NODES_COUNT = 250000
+34.89639575448274
+Mean NMSE at mask #26: 0.03489639575448274
+Testing elapsed 7.4508 ms
+
+
+	Mask index: 27
+
+0.0 %
+20.0 %
+
+2026-03-10 22:30:27 [ERROR] __main__: [6/568] Process error: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, stderr: , stdout: Task: "santa",
+	Theta: 0.12,
+	Tau_0: 4,
+	NODES: 40,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: SF-TAU,
+	TRAINING_NODES: 40
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 224.3646 ms
+Testing...
+NODES_COUNT = 200000
+37.41033205772203
+Mean NMSE at mask #0: 0.03741033205772203
+Testing elapsed 5.8807 ms
+
+
+	Mask index: 1
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 253.0074 ms
+Testing...
+NODES_COUNT = 200000
+35.828247066608455
+Mean NMSE at mask #1: 0.035828247066608455
+Testing elapsed 4.7618 ms
+
+
+	Mask index: 2
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 248.573 ms
+Testing...
+NODES_COUNT = 200000
+36.21571341490435
+Mean NMSE at mask #2: 0.03621571341490435
+Testing elapsed 4.2293 ms
+
+
+	Mask index: 3
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 299.9792 ms
+Testing...
+NODES_COUNT = 200000
+30.98953108358214
+Mean NMSE at mask #3: 0.03098953108358214
+Testing elapsed 6.2146 ms
+
+
+	Mask index: 4
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 333.4589 ms
+Testing...
+NODES_COUNT = 200000
+24.06560329065684
+Mean NMSE at mask #4: 0.024065603290656837
+Testing elapsed 8.1357 ms
+
+
+	Mask index: 5
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 285.1389 ms
+Testing...
+NODES_COUNT = 200000
+34.876100060885
+Mean NMSE at mask #5: 0.034876100060885
+Testing elapsed 5.1141 ms
+
+
+	Mask index: 6
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 236.5318 ms
+Testing...
+NODES_COUNT = 200000
+21.183217102681972
+Mean NMSE at mask #6: 0.02118321710268197
+Testing elapsed 4.3698 ms
+
+
+	Mask index: 7
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 254.0242 ms
+Testing...
+NODES_COUNT = 200000
+27.996319509995224
+Mean NMSE at mask #7: 0.027996319509995225
+Testing elapsed 4.4408 ms
+
+
+	Mask index: 8
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 255.6243 ms
+Testing...
+NODES_COUNT = 200000
+36.356826878003794
+Mean NMSE at mask #8: 0.036356826878003796
+Testing elapsed 5.8091 ms
+
+
+	Mask index: 9
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 221.098 ms
+Testing...
+NODES_COUNT = 200000
+36.048530716790566
+Mean NMSE at mask #9: 0.03604853071679057
+Testing elapsed 3.8282 ms
+
+
+	Mask index: 10
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 228.3704 ms
+Testing...
+NODES_COUNT = 200000
+31.711841057843507
+Mean NMSE at mask #10: 0.031711841057843505
+Testing elapsed 6.1705 ms
+
+
+	Mask index: 11
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 236.7039 ms
+Testing...
+NODES_COUNT = 200000
+36.069426503844895
+Mean NMSE at mask #11: 0.0360694265038449
+Testing elapsed 4.0653 ms
+
+
+	Mask index: 12
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 259.7082 ms
+Testing...
+NODES_COUNT = 200000
+40.907202185597036
+Mean NMSE at mask #12: 0.040907202185597034
+Testing elapsed 5.9135 ms
+
+
+	Mask index: 13
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 253.8021 ms
+Testing...
+NODES_COUNT = 200000
+43.51628279019035
+Mean NMSE at mask #13: 0.043516282790190354
+Testing elapsed 5.1928 ms
+
+
+	Mask index: 14
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 243.4179 ms
+Testing...
+NODES_COUNT = 200000
+27.599371919755242
+Mean NMSE at mask #14: 0.02759937191975524
+Testing elapsed 6.0357 ms
+
+
+	Mask index: 15
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 234.8012 ms
+Testing...
+NODES_COUNT = 200000
+28.670550503460266
+Mean NMSE at mask #15: 0.028670550503460266
+Testing elapsed 4.3176 ms
+
+
+	Mask index: 16
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 223.2749 ms
+Testing...
+NODES_COUNT = 200000
+22.960852911917442
+Mean NMSE at mask #16: 0.02296085291191744
+Testing elapsed 5.777 ms
+
+
+	Mask index: 17
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 241.7232 ms
+Testing...
+NODES_COUNT = 200000
+25.789176728495534
+Mean NMSE at mask #17: 0.025789176728495535
+Testing elapsed 3.7565 ms
+
+
+	Mask index: 18
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 218.8139 ms
+Testing...
+NODES_COUNT = 200000
+28.186593558386377
+Mean NMSE at mask #18: 0.028186593558386378
+Testing elapsed 5.6345 ms
+
+
+	Mask index: 19
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 235.1582 ms
+Testing...
+NODES_COUNT = 200000
+48.424918241747285
+Mean NMSE at mask #19: 0.048424918241747286
+Testing elapsed 4.1877 ms
+
+
+	Mask index: 20
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 223.965 ms
+Testing...
+NODES_COUNT = 200000
+29.977148101060944
+Mean NMSE at mask #20: 0.029977148101060943
+Testing elapsed 3.8094 ms
+
+
+	Mask index: 21
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 216.3347 ms
+Testing...
+NODES_COUNT = 200000
+20.633547388480032
+Mean NMSE at mask #21: 0.02063354738848003
+Testing elapsed 4.0963 ms
+
+
+	Mask index: 22
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 254.3615 ms
+Testing...
+NODES_COUNT = 200000
+37.55566298198513
+Mean NMSE at mask #22: 0.03755566298198513
+Testing elapsed 5.5502 ms
+
+
+	Mask index: 23
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 264.6202 ms
+Testing...
+NODES_COUNT = 200000
+29.156555352918883
+Mean NMSE at mask #23: 0.029156555352918882
+Testing elapsed 11.1455 ms
+
+
+	Mask index: 24
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 258.2625 ms
+Testing...
+NODES_COUNT = 200000
+37.48747010436016
+Mean NMSE at mask #24: 0.03748747010436016
+Testing elapsed 6.1892 ms
+
+
+	Mask index: 25
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 211.1298 ms
+Testing...
+NODES_COUNT = 200000
+30.476447995728062
+Mean NMSE at mask #25: 0.030476447995728063
+Testing elapsed 5.0908 ms
+
+
+	Mask index: 26
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 235.3452 ms
+Testing...
+NODES_COUNT = 200000
+35.13551505397113
+Mean NMSE at mask #26: 0.03513551505397113
+Testing elapsed 4.6651 ms
+
+
+	Mask index: 27
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 255.2689 ms
+Testing...
+NODES_COUNT = 200000
+30.548421133410926
+Mean NMSE at mask #27: 0.030548421133410927
+Testing elapsed 4.6234 ms
+
+
+	Mask index: 28
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 235.181 ms
+Testing...
+NODES_COUNT = 200000
+35.92517481625957
+Mean NMSE at mask #28: 0.03592517481625957
+Testing elapsed 4.4849 ms
+
+
+	Mask index: 29
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 245.9738 ms
+Testing...
+NODES_COUNT = 200000
+34.8439759339479
+Mean NMSE at mask #29: 0.034843975933947904
+Testing elapsed 5.6404 ms
+
+
+	Mask index: 30
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 223.6011 ms
+Testing...
+NODES_COUNT = 200000
+26.681161696977703
+Mean NMSE at mask #30: 0.026681161696977703
+Testing elapsed 3.8906 ms
+
+
+	Mask index: 31
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 230.0078 ms
+Testing...
+NODES_COUNT = 200000
+35.68620188545811
+Mean NMSE at mask #31: 0.03568620188545811
+Testing elapsed 4.5072 ms
+
+
+	Mask index: 32
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 230.9931 ms
+Testing...
+NODES_COUNT = 200000
+29.387718584515397
+Mean NMSE at mask #32: 0.029387718584515398
+Testing elapsed 5.6064 ms
+
+
+	Mask index: 33
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 251.0124 ms
+Testing...
+NODES_COUNT = 200000
+35.07197803609026
+Mean NMSE at mask #33: 0.03507197803609026
+Testing elapsed 5.6997 ms
+
+
+	Mask index: 34
+
+0.0 %
+20.0 %
+
+2026-03-10 22:30:27 [ERROR] __main__: [7/568] Process error: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, stderr: , stdout: Task: "santa",
+	Theta: 0.12,
+	Tau_0: 4.5,
+	NODES: 45,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: SF-TAU,
+	TRAINING_NODES: 45
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 269.2142 ms
+Testing...
+NODES_COUNT = 225000
+27.949381948994674
+Mean NMSE at mask #0: 0.027949381948994673
+Testing elapsed 5.2044 ms
+
+
+	Mask index: 1
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 275.0751 ms
+Testing...
+NODES_COUNT = 225000
+22.40207550080898
+Mean NMSE at mask #1: 0.02240207550080898
+Testing elapsed 5.2268 ms
+
+
+	Mask index: 2
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 271.5167 ms
+Testing...
+NODES_COUNT = 225000
+27.039550150508965
+Mean NMSE at mask #2: 0.027039550150508965
+Testing elapsed 6.7358 ms
+
+
+	Mask index: 3
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 411.7176 ms
+Testing...
+NODES_COUNT = 225000
+36.56243958202892
+Mean NMSE at mask #3: 0.03656243958202892
+Testing elapsed 7.3917 ms
+
+
+	Mask index: 4
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 348.0088 ms
+Testing...
+NODES_COUNT = 225000
+21.21075376208711
+Mean NMSE at mask #4: 0.021210753762087108
+Testing elapsed 7.6992 ms
+
+
+	Mask index: 5
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 279.553 ms
+Testing...
+NODES_COUNT = 225000
+21.998751106423757
+Mean NMSE at mask #5: 0.021998751106423756
+Testing elapsed 4.8326 ms
+
+
+	Mask index: 6
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 260.6851 ms
+Testing...
+NODES_COUNT = 225000
+37.85777258385515
+Mean NMSE at mask #6: 0.03785777258385515
+Testing elapsed 4.5599 ms
+
+
+	Mask index: 7
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 275.5178 ms
+Testing...
+NODES_COUNT = 225000
+27.856152523884628
+Mean NMSE at mask #7: 0.02785615252388463
+Testing elapsed 6.1667 ms
+
+
+	Mask index: 8
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 251.9089 ms
+Testing...
+NODES_COUNT = 225000
+36.49158889161674
+Mean NMSE at mask #8: 0.036491588891616744
+Testing elapsed 5.1258 ms
+
+
+	Mask index: 9
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 260.7474 ms
+Testing...
+NODES_COUNT = 225000
+19.316066169111348
+Mean NMSE at mask #9: 0.01931606616911135
+Testing elapsed 4.6806 ms
+
+
+	Mask index: 10
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 260.1894 ms
+Testing...
+NODES_COUNT = 225000
+33.59290942454252
+Mean NMSE at mask #10: 0.033592909424542516
+Testing elapsed 5.6246 ms
+
+
+	Mask index: 11
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 303.1484 ms
+Testing...
+NODES_COUNT = 225000
+21.85852202478033
+Mean NMSE at mask #11: 0.021858522024780332
+Testing elapsed 5.5927 ms
+
+
+	Mask index: 12
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 287.56 ms
+Testing...
+NODES_COUNT = 225000
+49.13843852321161
+Mean NMSE at mask #12: 0.04913843852321161
+Testing elapsed 6.2529 ms
+
+
+	Mask index: 13
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 277.3944 ms
+Testing...
+NODES_COUNT = 225000
+26.637204464047155
+Mean NMSE at mask #13: 0.026637204464047156
+Testing elapsed 5.23 ms
+
+
+	Mask index: 14
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 263.4929 ms
+Testing...
+NODES_COUNT = 225000
+28.851151015678834
+Mean NMSE at mask #14: 0.028851151015678835
+Testing elapsed 5.2054 ms
+
+
+	Mask index: 15
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 266.7932 ms
+Testing...
+NODES_COUNT = 225000
+27.13541942148269
+Mean NMSE at mask #15: 0.02713541942148269
+Testing elapsed 4.5908 ms
+
+
+	Mask index: 16
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 258.3574 ms
+Testing...
+NODES_COUNT = 225000
+21.768151205339144
+Mean NMSE at mask #16: 0.021768151205339144
+Testing elapsed 4.8522 ms
+
+
+	Mask index: 17
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 254.4526 ms
+Testing...
+NODES_COUNT = 225000
+20.06422621660237
+Mean NMSE at mask #17: 0.020064226216602372
+Testing elapsed 4.2763 ms
+
+
+	Mask index: 18
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 265.3306 ms
+Testing...
+NODES_COUNT = 225000
+33.16777754743321
+Mean NMSE at mask #18: 0.03316777754743321
+Testing elapsed 4.7035 ms
+
+
+	Mask index: 19
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 249.5003 ms
+Testing...
+NODES_COUNT = 225000
+33.47910766314004
+Mean NMSE at mask #19: 0.033479107663140044
+Testing elapsed 6.4383 ms
+
+
+	Mask index: 20
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 283.1642 ms
+Testing...
+NODES_COUNT = 225000
+42.658473571110015
+Mean NMSE at mask #20: 0.042658473571110016
+Testing elapsed 5.3389 ms
+
+
+	Mask index: 21
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 272.304 ms
+Testing...
+NODES_COUNT = 225000
+32.62649916454333
+Mean NMSE at mask #21: 0.032626499164543334
+Testing elapsed 6.0236 ms
+
+
+	Mask index: 22
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 260.1352 ms
+Testing...
+NODES_COUNT = 225000
+36.10387212164674
+Mean NMSE at mask #22: 0.036103872121646736
+Testing elapsed 4.5782 ms
+
+
+	Mask index: 23
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 256.2731 ms
+Testing...
+NODES_COUNT = 225000
+23.638823428837036
+Mean NMSE at mask #23: 0.023638823428837035
+Testing elapsed 6.299 ms
+
+
+	Mask index: 24
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 287.5852 ms
+Testing...
+NODES_COUNT = 225000
+37.63126439112443
+Mean NMSE at mask #24: 0.03763126439112443
+Testing elapsed 4.7241 ms
+
+
+	Mask index: 25
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 256.7525 ms
+Testing...
+NODES_COUNT = 225000
+32.577197838395215
+Mean NMSE at mask #25: 0.03257719783839522
+Testing elapsed 6.8671 ms
+
+
+	Mask index: 26
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 280.4264 ms
+Testing...
+NODES_COUNT = 225000
+34.763592099717314
+Mean NMSE at mask #26: 0.034763592099717314
+Testing elapsed 6.469 ms
+
+
+	Mask index: 27
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 263.0419 ms
+Testing...
+NODES_COUNT = 225000
+31.071588485247418
+Mean NMSE at mask #27: 0.031071588485247416
+Testing elapsed 5.4804 ms
+
+
+	Mask index: 28
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 289.1232 ms
+Testing...
+NODES_COUNT = 225000
+33.46633955978417
+Mean NMSE at mask #28: 0.03346633955978417
+Testing elapsed 5.7508 ms
+
+
+	Mask index: 29
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 290.8202 ms
+Testing...
+NODES_COUNT = 225000
+28.307128475803587
+Mean NMSE at mask #29: 0.02830712847580359
+Testing elapsed 5.0312 ms
+
+
+	Mask index: 30
+
+0.0 %
+20.0 %
+
+2026-03-10 22:30:27 [ERROR] __main__: [5/568] Process error: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, stderr: , stdout: Task: "santa",
+	Theta: 0.12,
+	Tau_0: 3.5,
+	NODES: 35,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: SF-TAU,
+	TRAINING_NODES: 35
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 212.0836 ms
+Testing...
+NODES_COUNT = 175000
+48.68263633174638
+Mean NMSE at mask #0: 0.04868263633174638
+Testing elapsed 4.5719 ms
+
+
+	Mask index: 1
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 199.3689 ms
+Testing...
+NODES_COUNT = 175000
+38.925619750291816
+Mean NMSE at mask #1: 0.038925619750291816
+Testing elapsed 3.6454 ms
+
+
+	Mask index: 2
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 218.7626 ms
+Testing...
+NODES_COUNT = 175000
+52.74822066036396
+Mean NMSE at mask #2: 0.05274822066036396
+Testing elapsed 4.6926 ms
+
+
+	Mask index: 3
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 202.52 ms
+Testing...
+NODES_COUNT = 175000
+35.752410142571
+Mean NMSE at mask #3: 0.035752410142571
+Testing elapsed 5.2376 ms
+
+
+	Mask index: 4
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 374.7705 ms
+Testing...
+NODES_COUNT = 175000
+38.43596150750129
+Mean NMSE at mask #4: 0.03843596150750129
+Testing elapsed 5.614 ms
+
+
+	Mask index: 5
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 266.1856 ms
+Testing...
+NODES_COUNT = 175000
+32.557873570849345
+Mean NMSE at mask #5: 0.03255787357084935
+Testing elapsed 4.5877 ms
+
+
+	Mask index: 6
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 235.0779 ms
+Testing...
+NODES_COUNT = 175000
+31.262315850510628
+Mean NMSE at mask #6: 0.031262315850510626
+Testing elapsed 3.6763 ms
+
+
+	Mask index: 7
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 202.1037 ms
+Testing...
+NODES_COUNT = 175000
+33.79107816070658
+Mean NMSE at mask #7: 0.03379107816070658
+Testing elapsed 4.7251 ms
+
+
+	Mask index: 8
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 210.8169 ms
+Testing...
+NODES_COUNT = 175000
+29.030419021137067
+Mean NMSE at mask #8: 0.029030419021137066
+Testing elapsed 3.8401 ms
+
+
+	Mask index: 9
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 212.2714 ms
+Testing...
+NODES_COUNT = 175000
+35.54506676633854
+Mean NMSE at mask #9: 0.03554506676633854
+Testing elapsed 4.1666 ms
+
+
+	Mask index: 10
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 223.3929 ms
+Testing...
+NODES_COUNT = 175000
+35.1601241811512
+Mean NMSE at mask #10: 0.0351601241811512
+Testing elapsed 4.4261 ms
+
+
+	Mask index: 11
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 189.7732 ms
+Testing...
+NODES_COUNT = 175000
+33.79944257675032
+Mean NMSE at mask #11: 0.03379944257675032
+Testing elapsed 3.423 ms
+
+
+	Mask index: 12
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 221.8974 ms
+Testing...
+NODES_COUNT = 175000
+28.866889714696786
+Mean NMSE at mask #12: 0.028866889714696784
+Testing elapsed 4.6492 ms
+
+
+	Mask index: 13
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 197.6895 ms
+Testing...
+NODES_COUNT = 175000
+34.32000716378723
+Mean NMSE at mask #13: 0.03432000716378723
+Testing elapsed 3.7952 ms
+
+
+	Mask index: 14
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 231.2658 ms
+Testing...
+NODES_COUNT = 175000
+29.31539218871536
+Mean NMSE at mask #14: 0.029315392188715362
+Testing elapsed 4.9007 ms
+
+
+	Mask index: 15
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 225.9286 ms
+Testing...
+NODES_COUNT = 175000
+41.68744147071418
+Mean NMSE at mask #15: 0.041687441470714175
+Testing elapsed 4.8916 ms
+
+
+	Mask index: 16
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 225.0443 ms
+Testing...
+NODES_COUNT = 175000
+37.47910170975153
+Mean NMSE at mask #16: 0.03747910170975153
+Testing elapsed 4.9822 ms
+
+
+	Mask index: 17
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 220.4127 ms
+Testing...
+NODES_COUNT = 175000
+22.251963655414567
+Mean NMSE at mask #17: 0.022251963655414566
+Testing elapsed 5.2559 ms
+
+
+	Mask index: 18
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 192.0166 ms
+Testing...
+NODES_COUNT = 175000
+38.23026462527947
+Mean NMSE at mask #18: 0.03823026462527947
+Testing elapsed 3.71 ms
+
+
+	Mask index: 19
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 202.5793 ms
+Testing...
+NODES_COUNT = 175000
+42.88275150111054
+Mean NMSE at mask #19: 0.04288275150111054
+Testing elapsed 3.592 ms
+
+
+	Mask index: 20
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 200.4805 ms
+Testing...
+NODES_COUNT = 175000
+47.23627179588208
+Mean NMSE at mask #20: 0.047236271795882086
+Testing elapsed 4.5496 ms
+
+
+	Mask index: 21
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 211.2608 ms
+Testing...
+NODES_COUNT = 175000
+40.011715995929904
+Mean NMSE at mask #21: 0.040011715995929904
+Testing elapsed 4.7481 ms
+
+
+	Mask index: 22
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 203.1721 ms
+Testing...
+NODES_COUNT = 175000
+63.94913232173252
+Mean NMSE at mask #22: 0.06394913232173252
+Testing elapsed 3.8944 ms
+
+
+	Mask index: 23
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 222.1051 ms
+Testing...
+NODES_COUNT = 175000
+28.115115743715933
+Mean NMSE at mask #23: 0.028115115743715932
+Testing elapsed 3.3115 ms
+
+
+	Mask index: 24
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 193.9333 ms
+Testing...
+NODES_COUNT = 175000
+39.211103860511734
+Mean NMSE at mask #24: 0.039211103860511735
+Testing elapsed 3.8423 ms
+
+
+	Mask index: 25
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 219.3791 ms
+Testing...
+NODES_COUNT = 175000
+55.75659926650399
+Mean NMSE at mask #25: 0.05575659926650399
+Testing elapsed 4.6761 ms
+
+
+	Mask index: 26
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 211.3556 ms
+Testing...
+NODES_COUNT = 175000
+35.09568898950112
+Mean NMSE at mask #26: 0.03509568898950112
+Testing elapsed 4.3504 ms
+
+
+	Mask index: 27
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 208.8533 ms
+Testing...
+NODES_COUNT = 175000
+56.297588347033724
+Mean NMSE at mask #27: 0.056297588347033724
+Testing elapsed 4.2576 ms
+
+
+	Mask index: 28
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 228.8291 ms
+Testing...
+NODES_COUNT = 175000
+36.42648124316107
+Mean NMSE at mask #28: 0.03642648124316107
+Testing elapsed 4.5051 ms
+
+
+	Mask index: 29
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 198.5024 ms
+Testing...
+NODES_COUNT = 175000
+34.29433472542348
+Mean NMSE at mask #29: 0.03429433472542348
+Testing elapsed 3.5283 ms
+
+
+	Mask index: 30
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 230.0186 ms
+Testing...
+NODES_COUNT = 175000
+42.25416366265643
+Mean NMSE at mask #30: 0.042254163662656434
+Testing elapsed 3.5945 ms
+
+
+	Mask index: 31
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 203.3123 ms
+Testing...
+NODES_COUNT = 175000
+40.984020887631694
+Mean NMSE at mask #31: 0.04098402088763169
+Testing elapsed 3.4772 ms
+
+
+	Mask index: 32
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 220.0917 ms
+Testing...
+NODES_COUNT = 175000
+27.106744969632707
+Mean NMSE at mask #32: 0.027106744969632706
+Testing elapsed 3.5808 ms
+
+
+	Mask index: 33
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 210.6262 ms
+Testing...
+NODES_COUNT = 175000
+34.79790847743581
+Mean NMSE at mask #33: 0.03479790847743581
+Testing elapsed 5.0597 ms
+
+
+	Mask index: 34
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 218.3802 ms
+Testing...
+NODES_COUNT = 175000
+32.37899461814939
+Mean NMSE at mask #34: 0.032378994618149394
+Testing elapsed 5.0107 ms
+
+
+	Mask index: 35
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 218.2187 ms
+Testing...
+NODES_COUNT = 175000
+36.61492960242015
+Mean NMSE at mask #35: 0.036614929602420146
+Testing elapsed 3.6526 ms
+
+
+	Mask index: 36
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 221.3046 ms
+Testing...
+NODES_COUNT = 175000
+55.20107844856367
+Mean NMSE at mask #36: 0.05520107844856367
+Testing elapsed 5.0541 ms
+
+
+	Mask index: 37
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+100.0 %
+Calculation elapsed 204.8041 ms
+Testing...
+NODES_COUNT = 175000
+23.908706772612746
+Mean NMSE at mask #37: 0.023908706772612746
+Testing elapsed 5.0798 ms
+
+
+	Mask index: 38
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+
+2026-03-10 22:30:56 [INFO] __main__: Total commands: 568
+2026-03-10 22:30:56 [INFO] __main__: [5/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta
+2026-03-10 22:30:56 [INFO] __main__: [6/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta
+2026-03-10 22:30:56 [INFO] __main__: [7/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta
+2026-03-10 22:30:56 [INFO] __main__: [8/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta
+2026-03-10 22:31:08 [INFO] __main__: [5/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 3.5 --constant-theta, returncode: 0
+2026-03-10 22:31:08 [INFO] __main__: [9/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta
+2026-03-10 22:31:10 [INFO] __main__: [6/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4 --constant-theta, returncode: 0
+2026-03-10 22:31:10 [INFO] __main__: [10/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 6 --constant-theta
+2026-03-10 22:31:12 [INFO] __main__: [7/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 4.5 --constant-theta, returncode: 0
+2026-03-10 22:31:12 [INFO] __main__: [11/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 8.2 --constant-theta
+2026-03-10 22:31:13 [INFO] __main__: [8/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5 --constant-theta, returncode: 0
+2026-03-10 22:31:13 [INFO] __main__: [12/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta
+2026-03-10 22:31:27 [INFO] __main__: [9/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 5.5 --constant-theta, returncode: 0
+2026-03-10 22:31:27 [INFO] __main__: [13/568] Start process: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 12.6 --constant-theta
+2026-03-10 22:31:28 [INFO] __main__: [12/568] Done: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta, returncode: 3221225786
+2026-03-10 22:31:28 [WARNING] __main__: [12/568] Process stopped by user: C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe --task santa --case SF-TAU --theta 0.12 --beta 0.5 --tau-0 10.4 --constant-theta

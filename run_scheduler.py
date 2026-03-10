@@ -9,15 +9,22 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 EXE_PATH = r"C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe"
 MAX_CPU = 4
 LOG_FILE = "run_scheduler.log"
+START_AT = 0
 
 # Настройка логирования
-logging.basicConfig(
-    filename=LOG_FILE,
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
-)
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+
+# Хендлер для файла
+file_handler = logging.FileHandler(LOG_FILE)
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+
+# Хендлер для консоли
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+logger.addHandler(console_handler)
 
 # MC(tau_0), constant theta=0.12, case 'MC-TAU'
 MC_tau_0 = [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 8.2, 10.4, 12.6, 14.8, 17, 19.2, 21.4, 23.6, 25.8, 28, 30.2, 32.4, 34.6, 36.8, 39, 41.2, 43.4, 45.6, 47.8, 50]
@@ -59,19 +66,19 @@ def build_command(task, case, theta, beta, tau_0, constant_theta, every_second=F
     return cmd
 
 
-def run_process(cmd):
-    logger.info(f"Start process: {' '.join(cmd)}")
+def run_process(cmd, index, total):
+    logger.info(f"[{index}/{total}] Start process: {' '.join(cmd)}")
     try:
         result = subprocess.run(cmd, capture_output=True, text=True)
-        logger.info(f"Done: {' '.join(cmd)}, returncode: {result.returncode}")
+        logger.info(f"[{index}/{total}] Done: {' '.join(cmd)}, returncode: {result.returncode}")
         if result.returncode == 3221225786:
-            logger.warning(f"Process stopped by user: {' '.join(cmd)}")
+            logger.warning(f"[{index}/{total}] Process stopped by user: {' '.join(cmd)}")
         if result.returncode != 0:
-            logger.error(f"Process error: {' '.join(cmd)}, stderr: {result.stderr}, stdout: {result.stdout}")
+            logger.error(f"[{index}/{total}] Process error: {' '.join(cmd)}, stderr: {result.stderr}, stdout: {result.stdout}")
     except subprocess.TimeoutExpired:
-        logger.error(f"Process timeout: {' '.join(cmd)}")
+        logger.error(f"[{index}/{total}] Process timeout: {' '.join(cmd)}")
     except Exception as e:
-        logger.error(f"Process exception: {' '.join(cmd)}, {str(e)}")
+        logger.error(f"[{index}/{total}] Process exception: {' '.join(cmd)}, {str(e)}")
 
 
 def main():
@@ -103,12 +110,13 @@ def main():
 
     with ThreadPoolExecutor(max_workers=MAX_CPU) as executor:
         futures = []
-        for cmd in commands:
+        for i in range(START_AT, len(commands)):
+            cmd = commands[i]
             if len(futures) >= MAX_CPU:
                 # Ждем завершения одного
                 for future in as_completed(futures[:1]):
                     futures.remove(future)
-            future = executor.submit(run_process, cmd)
+            future = executor.submit(run_process, cmd, i, len(commands))
             futures.append(future)
 
         # Ждем завершения всех оставшихся
