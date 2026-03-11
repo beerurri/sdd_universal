@@ -4,10 +4,15 @@ import time
 import logging
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import platform
 
 # Настройки
-EXE_PATH = r"C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe"
-MAX_CPU = 4
+if platform.system() == 'Windows':
+    EXE_PATH = r"C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe"
+elif platform.system() == 'Linux':
+    EXE_PATH = r'/home/ivan/sdd_universal/target/release/v27_sdd_universal'
+
+MAX_CPU = os.cpu_count() - 2
 LOG_FILE = "run_scheduler.log"
 START_AT = 0
 
@@ -82,6 +87,8 @@ def run_process(cmd, index, total):
 
 
 def main():
+    logger.info(f'MAX_CPU: {MAX_CPU}')
+
     commands = []
 
     # Для tau_0
