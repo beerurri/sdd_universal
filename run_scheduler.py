@@ -3,6 +3,7 @@ import subprocess
 import time
 import logging
 import os
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import platform
 
@@ -55,6 +56,11 @@ NARMA_thetas = [0.0005, 0.001, 0.002, 0.004, 0.008, 0.01, 0.02, 0.03, 0.04, 0.05
 beta_theta = [(0.0005, 0), (0.0005, 0.2311), (0.0005, 0.4522), (0.0005, 0.6733), (0.0005, 0.8944), (0.0005, 1.1156), (0.0005, 1.3367), (0.0005, 1.5578), (0.0005, 1.7789), (0.0005, 2), (0.0782, 0), (0.0782, 0.2311), (0.0782, 0.4522), (0.0782, 0.6733), (0.0782, 0.8944), (0.0782, 1.1156), (0.0782, 1.3367), (0.0782, 1.5578), (0.0782, 1.7789), (0.0782, 2), (0.1559, 0), (0.1559, 0.2311), (0.1559, 0.4522), (0.1559, 0.6733), (0.1559, 0.8944), (0.1559, 1.1156), (0.1559, 1.3367), (0.1559, 1.5578), (0.1559, 1.7789), (0.1559, 2), (0.2337, 0), (0.2337, 0.2311), (0.2337, 0.4522), (0.2337, 0.6733), (0.2337, 0.8944), (0.2337, 1.1156), (0.2337, 1.3367), (0.2337, 1.5578), (0.2337, 1.7789), (0.2337, 2), (0.3114, 0), (0.3114, 0.2311), (0.3114, 0.4522), (0.3114, 0.6733), (0.3114, 0.8944), (0.3114, 1.1156), (0.3114, 1.3367), (0.3114, 1.5578), (0.3114, 1.7789), (0.3114, 2), (0.3891, 0), (0.3891, 0.2311), (0.3891, 0.4522), (0.3891, 0.6733), (0.3891, 0.8944), (0.3891, 1.1156), (0.3891, 1.3367), (0.3891, 1.5578), (0.3891, 1.7789), (0.3891, 2), (0.4668, 0), (0.4668, 0.2311), (0.4668, 0.4522), (0.4668, 0.6733), (0.4668, 0.8944), (0.4668, 1.1156), (0.4668, 1.3367), (0.4668, 1.5578), (0.4668, 1.7789), (0.4668, 2), (0.5446, 0), (0.5446, 0.2311), (0.5446, 0.4522), (0.5446, 0.6733), (0.5446, 0.8944), (0.5446, 1.1156), (0.5446, 1.3367), (0.5446, 1.5578), (0.5446, 1.7789), (0.5446, 2), (0.6223, 0), (0.6223, 0.2311), (0.6223, 0.4522), (0.6223, 0.6733), (0.6223, 0.8944), (0.6223, 1.1156), (0.6223, 1.3367), (0.6223, 1.5578), (0.6223, 1.7789), (0.6223, 2), (0.7, 0), (0.7, 0.2311), (0.7, 0.4522), (0.7, 0.6733), (0.7, 0.8944), (0.7, 1.1156), (0.7, 1.3367), (0.7, 1.5578), (0.7, 1.7789), (0.7, 2)]
 
 
+
+# globals for tracking which command indices have finished
+completed_indices = []
+completed_lock = threading.Lock()
+
 def build_command(task, case, theta, beta, tau_0, constant_theta, every_second=False):
     cmd = [
         EXE_PATH,
@@ -76,14 +82,29 @@ def run_process(cmd, index, total):
     try:
         result = subprocess.run(cmd, capture_output=True, text=True)
         logger.info(f"[{index}/{total}] Done: {' '.join(cmd)}, returncode: {result.returncode}")
+        with completed_lock:
+            completed_indices.append(index)
         if result.returncode == 3221225786:
             logger.warning(f"[{index}/{total}] Process stopped by user: {' '.join(cmd)}")
+            log_finished_indices()
         if result.returncode != 0:
             logger.error(f"[{index}/{total}] Process error: {' '.join(cmd)}, stderr: {result.stderr}, stdout: {result.stdout}")
     except subprocess.TimeoutExpired:
         logger.error(f"[{index}/{total}] Process timeout: {' '.join(cmd)}")
+        with completed_lock:
+            completed_indices.append(index)
     except Exception as e:
         logger.error(f"[{index}/{total}] Process exception: {' '.join(cmd)}, {str(e)}")
+        with completed_lock:
+            completed_indices.append(index)
+
+
+def log_finished_indices():
+    # log which indices finished
+    with completed_lock:
+        sorted_done = sorted(completed_indices)
+    logger.info(f"Completed indices: {sorted_done}")
+    logger.info("All done")
 
 
 def main():
@@ -135,7 +156,7 @@ def main():
         for future in as_completed(futures):
             pass
 
-    logger.info("All done")
+    log_finished_indices()
 
 if __name__ == "__main__":
     main()
