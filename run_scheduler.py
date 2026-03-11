@@ -15,7 +15,7 @@ elif platform.system() == 'Linux':
 
 MAX_CPU = max(1, (os.cpu_count() - 2))
 LOG_FILE = "run_scheduler.log"
-START_AT = 0
+START_AT = 75
 
 # Настройка логирования
 logger = logging.getLogger(__name__)
