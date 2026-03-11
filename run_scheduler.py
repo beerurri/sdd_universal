@@ -81,28 +81,33 @@ def run_process(cmd, index, total):
     logger.info(f"[{index}/{total}] Start process: {' '.join(cmd)}")
     try:
         result = subprocess.run(cmd, capture_output=True, text=True)
-        logger.info(f"[{index}/{total}] Done: {' '.join(cmd)}, returncode: {result.returncode}")
-        with completed_lock:
-            completed_indices.append(index)
+
+        if result.returncode == 0:
+            logger.info(f"[{index}/{total}] Done: {' '.join(cmd)}, returncode: {result.returncode}")
+            with completed_lock:
+                completed_indices.append(index)
+            return
+
         if result.returncode == 3221225786:
             logger.warning(f"[{index}/{total}] Process stopped by user: {' '.join(cmd)}")
             log_finished_indices()
+            return
+
         if result.returncode != 0:
-            logger.error(f"[{index}/{total}] Process error: {' '.join(cmd)}, stderr: {result.stderr}, stdout: {result.stdout}")
+            logger.error(f"[{index}/{total}] Process error: {' '.join(cmd)}, returncode: {result.returncode}, stderr:\n{result.stderr}\n, stdout:\n{result.stdout}\n")
+
     except subprocess.TimeoutExpired:
         logger.error(f"[{index}/{total}] Process timeout: {' '.join(cmd)}")
-        with completed_lock:
-            completed_indices.append(index)
+
     except Exception as e:
-        logger.error(f"[{index}/{total}] Process exception: {' '.join(cmd)}, {str(e)}")
-        with completed_lock:
-            completed_indices.append(index)
+        logger.error(f"[{index}/{total}] Process exception: {' '.join(cmd)},\n{str(e)}")
 
 
 def log_finished_indices():
     # log which indices finished
     with completed_lock:
         sorted_done = sorted(completed_indices)
+
     logger.info(f"Completed indices: {sorted_done}")
     logger.info("All done")
 
