@@ -8,9 +8,9 @@ import platform
 
 # Настройки
 if platform.system() == 'Windows':
-    EXE_PATH = r"C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe"
+    EXE_PATH = os.path.join(os.getcwd(), 'target', 'release', 'v27_sdd_universal.exe')  #r"C:\Users\Ivan\Desktop\v27_sdd_universal\target\release\v27_sdd_universal.exe"
 elif platform.system() == 'Linux':
-    EXE_PATH = r'/home/ivan/sdd_universal/target/release/v27_sdd_universal'
+    EXE_PATH = os.path.join(os.getcwd(), 'target', 'release', 'v27_sdd_universal') #r'/home/ivan/sdd_universal/target/release/v27_sdd_universal'
 
 MAX_CPU = os.cpu_count() - 2
 LOG_FILE = "run_scheduler.log"
@@ -87,6 +87,11 @@ def run_process(cmd, index, total):
 
 
 def main():
+    if not os.path.exists(os.path.join(os.getcwd(), 'results')):
+        logger.info("`results` directory doesn't exist, creating...")
+        os.mkdir(os.path.join(os.getcwd(), 'results'))
+        time.sleep(0.2)
+
     logger.info(f'MAX_CPU: {MAX_CPU}')
 
     commands = []
