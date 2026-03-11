@@ -13,7 +13,7 @@ if platform.system() == 'Windows':
 elif platform.system() == 'Linux':
     EXE_PATH = os.path.join(os.getcwd(), 'target', 'release', 'v27_sdd_universal') #r'/home/ivan/sdd_universal/target/release/v27_sdd_universal'
 
-MAX_CPU = os.cpu_count() - 2
+MAX_CPU = max(1, (os.cpu_count() - 2))
 LOG_FILE = "run_scheduler.log"
 START_AT = 0
 
