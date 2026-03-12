@@ -653,3 +653,134 @@ XC Validation... 30.0 %
 2026-03-11 19:45:24 [INFO] __main__: [86/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 39 --constant-theta
 2026-03-11 19:45:24 [INFO] __main__: [87/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 41.2 --constant-theta
 2026-03-11 19:45:24 [INFO] __main__: [88/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 43.4 --constant-theta
+2026-03-11 20:56:03 [INFO] __main__: [75/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 14.8 --constant-theta, returncode: 0
+2026-03-11 20:56:04 [INFO] __main__: [89/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 45.6 --constant-theta
+2026-03-11 21:24:59 [INFO] __main__: [76/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 17 --constant-theta, returncode: 0
+2026-03-11 21:25:00 [INFO] __main__: [90/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 47.8 --constant-theta
+2026-03-11 22:06:51 [INFO] __main__: [77/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 19.2 --constant-theta, returncode: 0
+2026-03-11 22:06:52 [INFO] __main__: [91/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 50 --constant-theta
+2026-03-11 22:13:42 [ERROR] __main__: [91/568] Process error: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 50 --constant-theta, returncode: -9, stderr:
+
+, stdout:
+Task: "mc",
+	Theta: 0.12,
+	Tau_0: 50,
+	NODES: 500,
+	DT: 0.0075,
+	Beta: 0.5,
+	Every Second: false,
+	Constant Theta: true
+	Case: MC-TAU,
+	TRAINING_NODES: 500
+
+
+	Mask index: 0
+
+0.0 %
+20.0 %
+40.0 %
+60.0 %
+80.0 %
+Calculation elapsed 3685.239392 ms
+Testing...
+NODES_COUNT = 2500000
+LC QC Validation... 0.0 %
+LC QC Validation... 10.0 %
+LC QC Validation... 20.0 %
+LC QC Validation... 30.0 %
+LC QC Validation... 40.0 %
+LC QC Validation... 50.0 %
+LC QC Validation... 60.0 %
+LC QC Validation... 70.0 %
+LC QC Validation... 80.0 %
+LC QC Validation... 90.0 %
+CC Validation... 0.0 %
+CC Validation... 10.0 %
+CC Validation... 20.0 %
+CC Validation... 30.0 %
+CC Validation... 40.0 %
+CC Validation... 50.0 %
+CC Validation... 60.0 %
+CC Validation... 70.0 %
+CC Validation... 80.0 %
+CC Validation... 90.0 %
+
+	nodes: 500
+	mc_thr: 0.250497
+
+	lc_d_steps_threshold: 12.79493646600594
+	qc_d_steps_threshold: 6.995507725000539
+	cc_d_steps_threshold: 3.3117413776485525
+	XC_D_STEPS_COUNT set to 479
+	num_pairs (XC) = 114481
+XC Validation... 0.0 %
+
+
+2026-03-11 23:35:20 [INFO] __main__: [78/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 21.4 --constant-theta, returncode: 0
+2026-03-11 23:35:21 [INFO] __main__: [92/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0
+2026-03-11 23:36:17 [INFO] __main__: [92/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-11 23:43:13 [INFO] __main__: [79/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 23.6 --constant-theta, returncode: 0
+2026-03-11 23:43:13 [INFO] __main__: [93/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.001 --beta 0.5 --tau-0 1.0
+2026-03-11 23:43:36 [INFO] __main__: [93/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.001 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 00:42:10 [INFO] __main__: [80/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 25.8 --constant-theta, returncode: 0
+2026-03-12 00:42:11 [INFO] __main__: [94/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.002 --beta 0.5 --tau-0 1.0
+2026-03-12 00:42:33 [INFO] __main__: [94/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.002 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 01:48:22 [INFO] __main__: [81/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 28 --constant-theta, returncode: 0
+2026-03-12 01:48:23 [INFO] __main__: [95/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.004 --beta 0.5 --tau-0 1.0
+2026-03-12 01:49:43 [INFO] __main__: [95/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.004 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 02:41:46 [INFO] __main__: [82/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 30.2 --constant-theta, returncode: 0
+2026-03-12 02:41:47 [INFO] __main__: [96/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.008 --beta 0.5 --tau-0 1.0
+2026-03-12 02:42:08 [INFO] __main__: [96/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.008 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 04:17:15 [INFO] __main__: [83/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 32.4 --constant-theta, returncode: 0
+2026-03-12 04:17:16 [INFO] __main__: [97/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.01 --beta 0.5 --tau-0 1.0
+2026-03-12 04:18:23 [INFO] __main__: [97/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.01 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 07:27:06 [INFO] __main__: [84/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 34.6 --constant-theta, returncode: 0
+2026-03-12 07:27:07 [INFO] __main__: [98/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.02 --beta 0.5 --tau-0 1.0
+2026-03-12 07:27:28 [INFO] __main__: [98/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.02 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 07:36:41 [INFO] __main__: [85/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 36.8 --constant-theta, returncode: 0
+2026-03-12 07:36:41 [INFO] __main__: [99/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.03 --beta 0.5 --tau-0 1.0
+2026-03-12 07:37:02 [INFO] __main__: [99/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.03 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 08:17:56 [INFO] __main__: [86/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 39 --constant-theta, returncode: 0
+2026-03-12 08:17:56 [INFO] __main__: [100/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.04 --beta 0.5 --tau-0 1.0
+2026-03-12 08:18:17 [INFO] __main__: [100/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.04 --beta 0.5 --tau-0 1.0, returncode: 0
+Traceback (most recent call last):
+  File "/home/entwickler/sdd_universal/run_scheduler.py", line 155, in main
+    for future in as_completed(futures[:1]):
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 243, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/usr/lib/python3.12/threading.py", line 655, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/entwickler/sdd_universal/run_scheduler.py", line 167, in <module>
+    main()
+  File "/home/entwickler/sdd_universal/run_scheduler.py", line 149, in main
+    with ThreadPoolExecutor(max_workers=MAX_CPU) as executor:
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 647, in __exit__
+    self.shutdown(wait=True)
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 238, in shutdown
+    t.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1592, in _shutdown
+    atexit_call()
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/usr/lib/python3.12/threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.12/threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt: 
