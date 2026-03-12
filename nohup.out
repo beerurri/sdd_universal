@@ -784,3 +784,464 @@ Traceback (most recent call last):
     if lock.acquire(block, timeout):
        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyboardInterrupt: 
+2026-03-12 09:03:27 [INFO] __main__: MAX_CPU: 14
+2026-03-12 09:03:27 [INFO] __main__: Total commands: 568
+2026-03-12 09:03:27 [INFO] __main__: [92/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [93/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.001 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [94/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.002 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [95/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.004 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [96/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.008 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [97/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.01 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [98/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.02 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [99/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.03 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [100/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.04 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [101/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.05 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [102/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.06 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [103/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.07 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [104/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.08 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:27 [INFO] __main__: [105/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.09 --beta 0.5 --tau-0 1.0
+2026-03-12 09:03:49 [INFO] __main__: [96/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.008 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:03:54 [INFO] __main__: [101/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.05 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:03:57 [INFO] __main__: [102/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.06 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:03:59 [INFO] __main__: [95/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.004 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:01 [INFO] __main__: [100/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.04 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:01 [INFO] __main__: [103/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.07 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:01 [INFO] __main__: [92/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:01 [INFO] __main__: [106/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.1 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:02 [INFO] __main__: [99/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.03 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:02 [INFO] __main__: [94/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.002 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:03 [INFO] __main__: [98/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.02 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:03 [INFO] __main__: [104/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.08 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:04 [INFO] __main__: [105/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.09 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:04 [INFO] __main__: [97/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.01 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:04 [INFO] __main__: [93/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.001 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:04 [INFO] __main__: [107/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.11 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [108/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.12 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [109/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.13 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [110/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.14 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [111/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.15 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [112/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.16 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [113/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.17 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [114/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.18 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [115/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.19 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [116/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.2 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [117/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.21 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [118/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.22 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:04 [INFO] __main__: [119/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.23 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:26 [INFO] __main__: [108/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.12 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:26 [INFO] __main__: [118/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.22 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:35 [INFO] __main__: [109/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.13 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:35 [INFO] __main__: [113/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.17 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:36 [INFO] __main__: [114/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.18 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:36 [INFO] __main__: [117/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.21 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:36 [INFO] __main__: [106/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.1 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:36 [INFO] __main__: [120/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.24 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [110/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.14 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [116/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.2 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [112/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.16 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [111/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.15 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [115/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.19 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [119/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.23 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [107/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.11 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:04:40 [INFO] __main__: [121/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.25 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [122/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.26 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [123/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.27 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [124/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.28 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [125/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.29 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [126/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.3 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [127/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.31 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [128/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.32 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [129/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.33 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [130/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.34 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [131/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.36 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [132/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.37 --beta 0.5 --tau-0 1.0
+2026-03-12 09:04:40 [INFO] __main__: [133/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.39 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:01 [INFO] __main__: [122/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.26 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:01 [INFO] __main__: [125/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.29 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:11 [INFO] __main__: [124/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.28 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:11 [INFO] __main__: [131/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.36 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:11 [INFO] __main__: [126/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.3 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:11 [INFO] __main__: [128/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.32 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:11 [INFO] __main__: [120/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.24 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:11 [INFO] __main__: [134/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.41 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [129/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.33 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:15 [INFO] __main__: [121/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.25 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:15 [INFO] __main__: [135/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.43 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [136/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.45 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [132/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.37 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:15 [INFO] __main__: [127/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.31 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:15 [INFO] __main__: [130/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.34 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:15 [INFO] __main__: [123/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.27 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:15 [INFO] __main__: [137/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.47 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [138/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.49 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [139/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.51 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [140/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.53 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [141/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.55 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [142/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.57 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [143/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.59 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [144/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.61 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [145/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.63 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:15 [INFO] __main__: [146/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.65 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:16 [INFO] __main__: [133/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.39 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:16 [INFO] __main__: [147/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.67 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:37 [INFO] __main__: [147/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.67 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:37 [INFO] __main__: [135/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.43 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:47 [INFO] __main__: [137/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.47 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:47 [INFO] __main__: [140/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.53 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:47 [INFO] __main__: [143/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.59 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:47 [INFO] __main__: [141/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.55 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:47 [INFO] __main__: [134/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.41 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:47 [INFO] __main__: [148/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.69 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:47 [INFO] __main__: [149/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.71 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [136/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.45 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:51 [INFO] __main__: [150/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.73 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [151/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.75 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [146/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.65 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:51 [INFO] __main__: [138/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.49 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:51 [INFO] __main__: [152/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.77 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [145/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.63 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:51 [INFO] __main__: [142/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.57 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:51 [INFO] __main__: [139/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.51 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:51 [INFO] __main__: [153/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.79 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [154/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [155/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.001 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [156/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.002 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:51 [INFO] __main__: [157/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.004 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:53 [INFO] __main__: [144/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.61 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:05:53 [INFO] __main__: [158/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.008 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:53 [INFO] __main__: [159/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.01 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:53 [INFO] __main__: [160/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.02 --beta 0.5 --tau-0 1.0
+2026-03-12 09:05:53 [INFO] __main__: [161/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.03 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:12 [INFO] __main__: [150/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.73 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:15 [INFO] __main__: [161/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.03 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:21 [INFO] __main__: [149/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.71 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:21 [INFO] __main__: [148/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.69 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:21 [INFO] __main__: [162/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.04 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:21 [INFO] __main__: [163/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.05 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:21 [INFO] __main__: [164/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.06 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:23 [INFO] __main__: [155/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.001 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:23 [INFO] __main__: [157/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.004 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:23 [INFO] __main__: [153/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.79 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:26 [INFO] __main__: [151/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.75 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:26 [INFO] __main__: [165/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.07 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:27 [INFO] __main__: [156/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.002 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:27 [INFO] __main__: [154/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:28 [INFO] __main__: [152/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-THETA --theta 0.77 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:28 [INFO] __main__: [166/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.08 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:28 [INFO] __main__: [167/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.09 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:28 [INFO] __main__: [168/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.1 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:28 [INFO] __main__: [169/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.11 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:28 [INFO] __main__: [170/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.12 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:28 [INFO] __main__: [171/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.13 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:29 [INFO] __main__: [158/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.008 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:29 [INFO] __main__: [172/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.14 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:30 [INFO] __main__: [159/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.01 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:30 [INFO] __main__: [173/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.15 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:32 [INFO] __main__: [160/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.02 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:32 [INFO] __main__: [174/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.16 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:32 [INFO] __main__: [175/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.17 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:50 [INFO] __main__: [166/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.08 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:54 [INFO] __main__: [163/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.05 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:54 [INFO] __main__: [173/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.15 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:55 [INFO] __main__: [162/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.04 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:55 [INFO] __main__: [176/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.18 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:55 [INFO] __main__: [177/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.19 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:57 [INFO] __main__: [164/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.06 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:06:57 [INFO] __main__: [178/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.2 --beta 0.5 --tau-0 1.0
+2026-03-12 09:06:59 [INFO] __main__: [170/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.12 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:01 [INFO] __main__: [169/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.11 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:03 [INFO] __main__: [165/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.07 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:03 [INFO] __main__: [179/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.21 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:03 [INFO] __main__: [180/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.22 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:03 [INFO] __main__: [174/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.16 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:04 [INFO] __main__: [172/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.14 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:04 [INFO] __main__: [171/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.13 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:06 [INFO] __main__: [168/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.1 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:06 [INFO] __main__: [167/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.09 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:06 [INFO] __main__: [181/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.23 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [182/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.24 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [183/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.25 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [184/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.26 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [185/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.27 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [186/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.28 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [187/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.29 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:06 [INFO] __main__: [188/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.3 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:10 [INFO] __main__: [175/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.17 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:10 [INFO] __main__: [189/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.31 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:19 [INFO] __main__: [177/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.19 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:25 [INFO] __main__: [176/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.18 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:25 [INFO] __main__: [190/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.32 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:25 [INFO] __main__: [191/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.33 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:32 [INFO] __main__: [178/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.2 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:32 [INFO] __main__: [192/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.34 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:33 [INFO] __main__: [186/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.28 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:33 [INFO] __main__: [188/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.3 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:37 [INFO] __main__: [182/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.24 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:39 [INFO] __main__: [184/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.26 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:40 [INFO] __main__: [179/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.21 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:40 [INFO] __main__: [193/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.36 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:41 [INFO] __main__: [180/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.22 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:41 [INFO] __main__: [194/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.37 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:42 [INFO] __main__: [189/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.31 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:43 [INFO] __main__: [183/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.25 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:43 [INFO] __main__: [185/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.27 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:44 [INFO] __main__: [181/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.23 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:44 [INFO] __main__: [195/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.39 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [196/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.41 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [197/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.43 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [198/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.45 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [199/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.47 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [200/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.49 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [187/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.29 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:44 [INFO] __main__: [201/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.51 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [202/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.53 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:44 [INFO] __main__: [203/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.55 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:50 [INFO] __main__: [191/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.33 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:55 [INFO] __main__: [190/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.32 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:55 [INFO] __main__: [204/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.57 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:55 [INFO] __main__: [205/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.59 --beta 0.5 --tau-0 1.0
+2026-03-12 09:07:58 [INFO] __main__: [192/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.34 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:07:58 [INFO] __main__: [206/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.61 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:01 [INFO] __main__: [193/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.36 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:01 [INFO] __main__: [207/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.63 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:18 [INFO] __main__: [194/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.37 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:18 [INFO] __main__: [208/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.65 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:20 [INFO] __main__: [197/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.43 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:20 [INFO] __main__: [206/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.61 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:22 [INFO] __main__: [199/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.47 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:22 [INFO] __main__: [201/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.51 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [203/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.55 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [198/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.45 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [195/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.39 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [209/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.67 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [207/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.63 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [202/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.53 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [200/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.49 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [196/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.41 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:23 [INFO] __main__: [210/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.69 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [211/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.71 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [212/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.73 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [213/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.75 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [214/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.77 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [215/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.79 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [216/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:23 [INFO] __main__: [217/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.001 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:29 [INFO] __main__: [204/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.57 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:29 [INFO] __main__: [218/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.002 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:30 [INFO] __main__: [205/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.59 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:30 [INFO] __main__: [219/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.004 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:30 [INFO] __main__: [220/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.008 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:30 [INFO] __main__: [221/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.01 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:44 [INFO] __main__: [209/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.67 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:49 [INFO] __main__: [208/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.65 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:08:49 [INFO] __main__: [222/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.02 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:49 [INFO] __main__: [223/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.03 --beta 0.5 --tau-0 1.0
+2026-03-12 09:08:54 [INFO] __main__: [211/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.71 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:09:02 [INFO] __main__: [212/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.73 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:09:02 [INFO] __main__: [210/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.69 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:09:02 [INFO] __main__: [224/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.04 --beta 0.5 --tau-0 1.0
+2026-03-12 09:09:02 [INFO] __main__: [225/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.05 --beta 0.5 --tau-0 1.0
+2026-03-12 09:09:02 [INFO] __main__: [226/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.06 --beta 0.5 --tau-0 1.0
+2026-03-12 09:09:03 [INFO] __main__: [215/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.79 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:09:03 [INFO] __main__: [213/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.75 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:09:03 [INFO] __main__: [227/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.07 --beta 0.5 --tau-0 1.0
+2026-03-12 09:09:03 [INFO] __main__: [214/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-THETA --theta 0.77 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:09:03 [INFO] __main__: [228/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.08 --beta 0.5 --tau-0 1.0
+2026-03-12 09:09:03 [INFO] __main__: [229/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.09 --beta 0.5 --tau-0 1.0
+2026-03-12 09:30:28 [INFO] __main__: [221/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.01 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:31:44 [INFO] __main__: [229/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.09 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:31:54 [INFO] __main__: [226/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.06 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:32:04 [INFO] __main__: [228/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.08 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:32:29 [INFO] __main__: [222/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.02 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:32:41 [INFO] __main__: [224/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.04 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:32:56 [INFO] __main__: [227/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.07 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:33:03 [INFO] __main__: [225/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.05 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:33:04 [INFO] __main__: [220/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.008 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:33:21 [INFO] __main__: [223/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.03 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:33:33 [INFO] __main__: [219/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.004 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:33:37 [INFO] __main__: [218/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.002 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:34:13 [INFO] __main__: [217/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.001 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:34:36 [INFO] __main__: [216/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.0005 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:34:36 [INFO] __main__: [230/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.1 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [231/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.11 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [232/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.12 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [233/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.13 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [234/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.14 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [235/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.15 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [236/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.16 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [237/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.17 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [238/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.18 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [239/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.19 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [240/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.2 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [241/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.21 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [242/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.22 --beta 0.5 --tau-0 1.0
+2026-03-12 09:34:36 [INFO] __main__: [243/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.23 --beta 0.5 --tau-0 1.0
+2026-03-12 09:56:08 [INFO] __main__: [234/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.14 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:56:22 [INFO] __main__: [239/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.19 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:56:32 [INFO] __main__: [232/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.12 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:56:38 [INFO] __main__: [236/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.16 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:56:52 [INFO] __main__: [235/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.15 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:56:54 [INFO] __main__: [237/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.17 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:56:54 [INFO] __main__: [240/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.2 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:07 [INFO] __main__: [231/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.11 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:08 [INFO] __main__: [242/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.22 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:16 [INFO] __main__: [243/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.23 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:17 [INFO] __main__: [238/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.18 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:26 [INFO] __main__: [241/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.21 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:26 [INFO] __main__: [230/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.1 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:26 [INFO] __main__: [244/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.24 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:26 [INFO] __main__: [245/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.25 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:26 [INFO] __main__: [246/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.26 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [233/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.13 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 09:57:38 [INFO] __main__: [247/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.27 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [248/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.28 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [249/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.29 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [250/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.3 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [251/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.31 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [252/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.32 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [253/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.33 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [254/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.34 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [255/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.36 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [256/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.37 --beta 0.5 --tau-0 1.0
+2026-03-12 09:57:38 [INFO] __main__: [257/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.39 --beta 0.5 --tau-0 1.0
+2026-03-12 10:18:41 [INFO] __main__: [244/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.24 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:18:41 [INFO] __main__: [258/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.41 --beta 0.5 --tau-0 1.0
+2026-03-12 10:19:05 [INFO] __main__: [251/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.31 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:19:10 [INFO] __main__: [246/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.26 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:19:45 [INFO] __main__: [257/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.39 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:19:52 [INFO] __main__: [245/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.25 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:19:52 [INFO] __main__: [259/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.43 --beta 0.5 --tau-0 1.0
+2026-03-12 10:19:52 [INFO] __main__: [260/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.45 --beta 0.5 --tau-0 1.0
+2026-03-12 10:19:57 [INFO] __main__: [250/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.3 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:20:00 [INFO] __main__: [249/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.29 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:20:02 [INFO] __main__: [256/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.37 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:20:10 [INFO] __main__: [254/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.34 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:20:14 [INFO] __main__: [247/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.27 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:20:14 [INFO] __main__: [261/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.47 --beta 0.5 --tau-0 1.0
+2026-03-12 10:20:22 [INFO] __main__: [248/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.28 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:20:22 [INFO] __main__: [262/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.49 --beta 0.5 --tau-0 1.0
+2026-03-12 10:20:22 [INFO] __main__: [263/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.51 --beta 0.5 --tau-0 1.0
+2026-03-12 10:20:22 [INFO] __main__: [264/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.53 --beta 0.5 --tau-0 1.0
+2026-03-12 10:20:22 [INFO] __main__: [265/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.55 --beta 0.5 --tau-0 1.0
+2026-03-12 10:21:01 [INFO] __main__: [253/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.33 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:21:01 [INFO] __main__: [252/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.32 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:21:01 [INFO] __main__: [266/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.57 --beta 0.5 --tau-0 1.0
+2026-03-12 10:21:01 [INFO] __main__: [267/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.59 --beta 0.5 --tau-0 1.0
+2026-03-12 10:21:01 [INFO] __main__: [268/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0 --tau-0 1.0
+2026-03-12 10:21:16 [INFO] __main__: [255/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.36 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:21:16 [INFO] __main__: [269/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0 --tau-0 1.0
+2026-03-12 10:21:16 [INFO] __main__: [270/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0 --tau-0 1.0
+2026-03-12 10:21:16 [INFO] __main__: [271/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.2311 --tau-0 1.0
+2026-03-12 10:21:55 [INFO] __main__: [269/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 10:21:55 [INFO] __main__: [270/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 10:39:29 [INFO] __main__: [258/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.41 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:39:29 [INFO] __main__: [272/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.2311 --tau-0 1.0
+2026-03-12 10:39:51 [INFO] __main__: [272/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.2311 --tau-0 1.0, returncode: 0
+2026-03-12 10:40:12 [INFO] __main__: [264/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.53 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:40:37 [INFO] __main__: [259/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.43 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:40:37 [INFO] __main__: [273/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.2311 --tau-0 1.0
+2026-03-12 10:41:04 [INFO] __main__: [263/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.51 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:41:12 [INFO] __main__: [273/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.2311 --tau-0 1.0, returncode: 0
+2026-03-12 10:41:28 [INFO] __main__: [260/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.45 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:41:28 [INFO] __main__: [274/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.4522 --tau-0 1.0
+2026-03-12 10:41:34 [INFO] __main__: [261/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.47 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:41:34 [INFO] __main__: [275/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.4522 --tau-0 1.0
+2026-03-12 10:41:55 [INFO] __main__: [275/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.4522 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:09 [INFO] __main__: [262/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.49 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:09 [INFO] __main__: [276/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.4522 --tau-0 1.0
+2026-03-12 10:42:09 [INFO] __main__: [277/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.6733 --tau-0 1.0
+2026-03-12 10:42:09 [INFO] __main__: [278/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.6733 --tau-0 1.0
+2026-03-12 10:42:21 [INFO] __main__: [265/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.55 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:21 [INFO] __main__: [279/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.6733 --tau-0 1.0
+2026-03-12 10:42:22 [INFO] __main__: [266/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.57 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:22 [INFO] __main__: [280/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.8944 --tau-0 1.0
+2026-03-12 10:42:24 [INFO] __main__: [267/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-THETA --theta 0.59 --beta 0.5 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:24 [INFO] __main__: [281/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.8944 --tau-0 1.0
+2026-03-12 10:42:30 [INFO] __main__: [278/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.6733 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:40 [INFO] __main__: [276/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.4522 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:43 [INFO] __main__: [279/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.6733 --tau-0 1.0, returncode: 0
+2026-03-12 10:42:45 [INFO] __main__: [281/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 0.8944 --tau-0 1.0, returncode: 0
+2026-03-12 10:43:32 [INFO] __main__: [268/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 10:43:32 [INFO] __main__: [282/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.8944 --tau-0 1.0
+2026-03-12 10:43:32 [INFO] __main__: [283/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.1156 --tau-0 1.0
+2026-03-12 10:43:32 [INFO] __main__: [284/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.1156 --tau-0 1.0
+2026-03-12 10:43:53 [INFO] __main__: [284/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.1156 --tau-0 1.0, returncode: 0
+2026-03-12 10:43:54 [INFO] __main__: [282/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 0.8944 --tau-0 1.0, returncode: 0
+2026-03-12 10:45:36 [INFO] __main__: [271/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.2311 --tau-0 1.0, returncode: 0
+2026-03-12 10:45:36 [INFO] __main__: [285/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.1156 --tau-0 1.0
+2026-03-12 10:45:36 [INFO] __main__: [286/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.3367 --tau-0 1.0
+2026-03-12 10:45:36 [INFO] __main__: [287/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.3367 --tau-0 1.0
+2026-03-12 10:45:57 [INFO] __main__: [287/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.3367 --tau-0 1.0, returncode: 0
+2026-03-12 10:45:57 [INFO] __main__: [285/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.1156 --tau-0 1.0, returncode: 0
+2026-03-12 10:58:29 [INFO] __main__: [274/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.4522 --tau-0 1.0, returncode: 0
+2026-03-12 10:58:29 [INFO] __main__: [288/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.3367 --tau-0 1.0
+2026-03-12 10:58:29 [INFO] __main__: [289/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.5578 --tau-0 1.0
+2026-03-12 10:58:29 [INFO] __main__: [290/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.5578 --tau-0 1.0
+2026-03-12 10:58:51 [INFO] __main__: [288/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.3367 --tau-0 1.0, returncode: 0
+2026-03-12 10:58:52 [INFO] __main__: [290/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.5578 --tau-0 1.0, returncode: 0
+2026-03-12 10:59:11 [INFO] __main__: [277/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.6733 --tau-0 1.0, returncode: 0
+2026-03-12 10:59:11 [INFO] __main__: [291/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.5578 --tau-0 1.0
+2026-03-12 10:59:11 [INFO] __main__: [292/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.7789 --tau-0 1.0
+2026-03-12 10:59:11 [INFO] __main__: [293/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.7789 --tau-0 1.0
+2026-03-12 10:59:19 [INFO] __main__: [280/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 0.8944 --tau-0 1.0, returncode: 0
+2026-03-12 10:59:19 [INFO] __main__: [294/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.7789 --tau-0 1.0
+2026-03-12 10:59:19 [INFO] __main__: [295/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 2 --tau-0 1.0
+2026-03-12 10:59:19 [INFO] __main__: [296/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 2 --tau-0 1.0
+2026-03-12 10:59:33 [INFO] __main__: [293/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 1.7789 --tau-0 1.0, returncode: 0
+2026-03-12 10:59:33 [INFO] __main__: [291/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.5578 --tau-0 1.0, returncode: 0
+2026-03-12 10:59:46 [INFO] __main__: [296/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0005 --beta 2 --tau-0 1.0, returncode: 0
+2026-03-12 10:59:47 [INFO] __main__: [294/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 1.7789 --tau-0 1.0, returncode: 0
+2026-03-12 11:00:21 [INFO] __main__: [283/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.1156 --tau-0 1.0, returncode: 0
+2026-03-12 11:00:21 [INFO] __main__: [297/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 2 --tau-0 1.0
+2026-03-12 11:00:21 [INFO] __main__: [298/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0 --tau-0 1.0
+2026-03-12 11:00:21 [INFO] __main__: [299/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0 --tau-0 1.0
+2026-03-12 11:00:42 [INFO] __main__: [297/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0005 --beta 2 --tau-0 1.0, returncode: 0
+2026-03-12 11:00:42 [INFO] __main__: [299/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 11:02:34 [INFO] __main__: [286/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.3367 --tau-0 1.0, returncode: 0
+2026-03-12 11:02:34 [INFO] __main__: [300/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0 --tau-0 1.0
+2026-03-12 11:02:34 [INFO] __main__: [301/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.2311 --tau-0 1.0
+2026-03-12 11:02:34 [INFO] __main__: [302/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.2311 --tau-0 1.0
+2026-03-12 11:02:56 [INFO] __main__: [302/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.2311 --tau-0 1.0, returncode: 0
+2026-03-12 11:02:56 [INFO] __main__: [300/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 11:12:30 [INFO] __main__: [298/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 11:15:31 [INFO] __main__: [289/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.5578 --tau-0 1.0, returncode: 0
+2026-03-12 11:15:31 [INFO] __main__: [303/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.2311 --tau-0 1.0
+2026-03-12 11:15:31 [INFO] __main__: [304/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.4522 --tau-0 1.0
+2026-03-12 11:15:31 [INFO] __main__: [305/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.4522 --tau-0 1.0
+2026-03-12 11:15:53 [INFO] __main__: [305/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.4522 --tau-0 1.0, returncode: 0
+2026-03-12 11:15:53 [INFO] __main__: [303/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.2311 --tau-0 1.0, returncode: 0
+2026-03-12 11:15:55 [INFO] __main__: [301/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.2311 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:01 [INFO] __main__: [292/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 1.7789 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:01 [INFO] __main__: [306/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.4522 --tau-0 1.0
+2026-03-12 11:16:01 [INFO] __main__: [307/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.6733 --tau-0 1.0
+2026-03-12 11:16:01 [INFO] __main__: [308/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.6733 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [295/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0005 --beta 2 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:19 [INFO] __main__: [309/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.6733 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [310/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.8944 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [311/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.8944 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [312/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.8944 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [313/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 1.1156 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [317/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.3367 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [315/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 1.1156 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [316/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 1.3367 --tau-0 1.0
+2026-03-12 11:16:19 [INFO] __main__: [314/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.1156 --tau-0 1.0
+2026-03-12 11:16:22 [INFO] __main__: [308/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.6733 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:23 [INFO] __main__: [306/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.4522 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:42 [INFO] __main__: [314/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.1156 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:51 [INFO] __main__: [311/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 0.8944 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:51 [INFO] __main__: [317/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.3367 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:54 [INFO] __main__: [312/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.8944 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:55 [INFO] __main__: [315/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 1.1156 --tau-0 1.0, returncode: 0
+2026-03-12 11:16:55 [INFO] __main__: [309/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 0.6733 --tau-0 1.0, returncode: 0
+2026-03-12 11:29:43 [INFO] __main__: [304/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.4522 --tau-0 1.0, returncode: 0
+2026-03-12 11:29:43 [INFO] __main__: [318/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 1.3367 --tau-0 1.0
+2026-03-12 11:29:43 [INFO] __main__: [319/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 1.5578 --tau-0 1.0
+2026-03-12 11:29:43 [INFO] __main__: [320/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.5578 --tau-0 1.0
+2026-03-12 11:30:05 [INFO] __main__: [320/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.5578 --tau-0 1.0, returncode: 0
+2026-03-12 11:30:05 [INFO] __main__: [318/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 1.3367 --tau-0 1.0, returncode: 0
+2026-03-12 11:30:45 [INFO] __main__: [307/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 0.6733 --tau-0 1.0, returncode: 0
+2026-03-12 11:30:45 [INFO] __main__: [321/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 1.5578 --tau-0 1.0
+2026-03-12 11:30:45 [INFO] __main__: [322/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.0782 --beta 1.7789 --tau-0 1.0
+2026-03-12 11:30:45 [INFO] __main__: [323/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.7789 --tau-0 1.0
+2026-03-12 11:31:06 [INFO] __main__: [323/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task santa --case SF-2D --theta 0.0782 --beta 1.7789 --tau-0 1.0, returncode: 0
+2026-03-12 11:31:06 [INFO] __main__: [321/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task narma --case NARMA-2D --theta 0.0782 --beta 1.5578 --tau-0 1.0, returncode: 0
