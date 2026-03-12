@@ -76,27 +76,33 @@ def remove_mc_duplicates(results):
 results = remove_mc_duplicates([parse_filename(file) for file in os.listdir(os.path.join(os.path.join(os.getcwd(), 'results')))])
 commands = [parse_cmd(cmd) for cmd in make_commands()]
 missing = list()
+existing = list()
 cases = ['SF-TAU', 'NARMA-TAU', 'MC-TAU', 'SF-THETA', 'NARMA-THETA', 'MC-THETA', 'SF-2D', 'NARMA-2D', 'MC-2D']
 
 for case in cases:
     tmp_cmd = [cmd for cmd in commands if cmd['case'] == case]
     tmp_res = [res for res in results if res['case'] == case]
 
-    if case in ['SF-TAU', 'NARMA-TAU', 'MC_TAU']:
+    if case in ['SF-TAU', 'NARMA-TAU', 'MC-TAU']:
         tau0_res = {d['tau0'] for d in tmp_res}
         missing.extend([d for d in tmp_cmd if d['tau0'] not in tau0_res])
+        existing.extend([d for d in tmp_cmd if d['tau0'] in tau0_res])
 
     elif case in ['SF-THETA', 'NARMA-THETA', 'MC-THETA']:
         theta_res = {d['theta'] for d in tmp_res}
         missing.extend([d for d in tmp_cmd if d['theta'] not in theta_res])
+        existing.extend([d for d in tmp_cmd if d['theta'] in theta_res])
         
     elif case in ['SF-2D', 'NARMA-2D', 'MC-2D']:
         theta_beta_res = {(d['theta'], d['beta']) for d in tmp_res}
         missing.extend([d for d in tmp_cmd if (d['theta'], d['beta']) not in theta_beta_res])
+        existing.extend([d for d in tmp_cmd if (d['theta'], d['beta']) in theta_beta_res])
 
 
 _ = [print(ms) for ms in missing]
 print(f'missing len: {len(missing)}')
+print(f'existing len: {len(existing)}')
+print(f'commands len: {len(commands)}')
             
     
 

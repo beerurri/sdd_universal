@@ -52,6 +52,8 @@ def build_command(task, case, theta, beta, tau_0, constant_theta, every_second=F
         cmd.append("--every-second")
     return cmd
 
+# nohup target/release/v27_sdd_universal --task mc --case MC-TAU --theta 0.12 --beta 0.5 --tau-0 50 --constant-theta
+
 
 def run_process(cmd, index, total):
     logger.info(f"[{index}/{total}] Start process: {' '.join(cmd)}")
