@@ -1838,3 +1838,7 @@ XC Validation... 0.0 %
 2026-03-12 14:42:13 [INFO] __main__: [549/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.6223 --beta 0.2311 --tau-0 1.0
 2026-03-12 14:43:29 [INFO] __main__: [536/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.4668 --beta 1.7789 --tau-0 1.0, returncode: 0
 2026-03-12 14:43:29 [INFO] __main__: [550/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.6223 --beta 0.4522 --tau-0 1.0
+2026-03-12 14:50:54 [INFO] __main__: [537/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.4668 --beta 2 --tau-0 1.0, returncode: 0
+2026-03-12 14:50:54 [INFO] __main__: [551/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.6223 --beta 0.6733 --tau-0 1.0
+2026-03-12 14:51:49 [INFO] __main__: [538/568] Done: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.5446 --beta 0 --tau-0 1.0, returncode: 0
+2026-03-12 14:51:49 [INFO] __main__: [552/568] Start process: /home/entwickler/sdd_universal/target/release/v27_sdd_universal --task mc --case MC-2D --theta 0.6223 --beta 0.8944 --tau-0 1.0
