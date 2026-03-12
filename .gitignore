@@ -17,3 +17,10 @@ Cargo.lock
 # common editor temp files
 *.swp
 *~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
