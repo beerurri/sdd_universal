@@ -93,7 +93,7 @@ pub fn save_to_csv(data: &Vec<Vec<f64>>, filename: &str) -> Result<(), Box<dyn E
     Ok(())
 }
 
-pub fn save_vector_to_csv(data: &Vec<f64>, filename: &str) -> Result<(), Box<dyn Error>> {
+pub fn save_f64_vector_to_csv(data: &Vec<f64>, filename: &str) -> Result<(), Box<dyn Error>> {
     let file = File::create(filename)?;
     let mut wtr = Writer::from_writer(file);
 

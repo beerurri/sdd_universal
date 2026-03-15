@@ -11,6 +11,7 @@ use clap::Parser;
 use stopwatch::Stopwatch;
 use rand::SeedableRng;
 use rand::rngs::StdRng;
+use std::io;
 
 #[derive(Parser)]
 #[command(name = "universal")]
@@ -109,12 +110,38 @@ fn run_santa(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
         println!("Mean NMSE at mask #{}: {}", mask_idx, mean_nmse);
         stop = sw.elapsed();
         println!("Testing elapsed {} ms", stop.as_nanos() as f64 / 1e6);
+
+        if constants::LOG_NODES {
+            println!("Saving nodes log...");
+            _ = utils::save_f64_vector_to_csv(&node_states[(node_states.len()-constants::LOG_NODES_COUNT)..node_states.len()].to_vec(), "nodes_log.csv");
+            
+            println!("Continue?");
+
+            let mut input = String::new();
+            io::stdin().read_line(&mut input).unwrap();
+
+            if input.trim().is_empty() {
+                println!("Continuing...");
+            } else {
+                println!("Exiting...");
+                std::process::exit(0);
+            }
+        }
+
+        if constants::LOG_ALL_NODES_BY_MASK {
+            println!("Saving nodes log, mask {}...", mask_idx);
+            _ = utils::save_f64_vector_to_csv(&node_states, &format!("node_logs/nodes_log_mask-{mask_idx}.csv"))
+        }
+    }
+
+    if constants::LOG_NODES {
+        std::process::exit(0);
     }
 
     println!("Mean NMSE through {} masks: {}", constants::MASKS_COUNT, nmses.iter().sum::<f64>() / nmses.len() as f64);
 
     println!("Saving...");
-    _ = utils::save_vector_to_csv(&nmses, &utils::filename_builder(args, &params, ""));
+    _ = utils::save_f64_vector_to_csv(&nmses, &utils::filename_builder(args, &params, ""));
 }
 
 
@@ -150,7 +177,7 @@ fn run_narma(params: &mut params::Params, rng: &mut StdRng, args: &Args) {
     println!("Mean NMSE through {} masks: {}", constants::MASKS_COUNT, nrmses.iter().sum::<f64>() / nrmses.len() as f64);
 
     println!("Saving...");
-    _ = utils::save_vector_to_csv(&nrmses, &utils::filename_builder(args, &params, ""));
+    _ = utils::save_f64_vector_to_csv(&nrmses, &utils::filename_builder(args, &params, ""));
 }
 
 
