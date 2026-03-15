@@ -24,3 +24,7 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+
+*.zip
+*.7z
+*.7z.tmp
